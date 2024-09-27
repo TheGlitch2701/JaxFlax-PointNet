@@ -1,0 +1,50 @@
+Namespace(log_dir='log_jax_250_1024/', num_point=1024, batch_size=4, dump_dir='dump_jax_250_1024', visu=False, optimizer='adam')
+---------------------
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.654803
+eval accuracy: 87.358
+eval avg class acc: 84.470
+
+  airplane:	1.000
+   bathtub:	0.820
+       bed:	0.960
+     bench:	0.700
+ bookshelf:	0.930
+    bottle:	0.960
+      bowl:	1.000
+       car:	0.980
+     chair:	0.960
+      cone:	0.950
+       cup:	0.600
+   curtain:	0.900
+      desk:	0.791
+      door:	0.800
+   dresser:	0.651
+flower_pot:	0.250
+ glass_box:	0.910
+    guitar:	1.000
+  keyboard:	1.000
+      lamp:	0.900
+    laptop:	1.000
+    mantel:	0.950
+   monitor:	0.950
+night_stand:	0.686
+    person:	0.850
+     piano:	0.860
+     plant:	0.720
+     radio:	0.700
+range_hood:	0.910
+      sink:	0.750
+      sofa:	0.960
+    stairs:	0.850
+     stool:	0.850
+     table:	0.800
+      tent:	0.950
+    toilet:	0.960
+  tv_stand:	0.830
+      vase:	0.800
+  wardrobe:	0.650
+      xbox:	0.700
+---------------------
+Time for Evaluating: 19.549819

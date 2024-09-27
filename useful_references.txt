@@ -1,0 +1,7 @@
+• CORSSENTROPY & NEGATIVE LOG-LIKELIHOOD --> https://towardsdatascience.com/cross-entropy-negative-log-likelihood-and-all-that-jazz-47a95bd2e81
+
+• EVAL ACC & LOSS INCREASING --> https://stats.stackexchange.com/questions/282160/how-is-it-possible-that-validation-loss-is-increasing-while-validation-accuracy
+
+• WEIGHT DECAY & BATCHNORMALIZATION --> https://towardsdatascience.com/weight-decay-and-its-peculiar-effects-66e0aee3e7b8
+
+• REDUCED POINTNET REPOSITORY --> https://github.com/yanx27/Pointnet_Pointnet2_pytorch/blob/master/README.md

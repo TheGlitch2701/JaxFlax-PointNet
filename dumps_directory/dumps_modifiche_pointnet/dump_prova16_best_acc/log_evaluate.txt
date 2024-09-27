@@ -1,0 +1,51 @@
+Namespace(log_dir='log_prova16', model='pointnet', num_point=1024, batch_size=4, dump_dir='dump_prova16_best_acc', optimizer='adam', checkpoint='235')
+---------------------
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.411540
+eval accuracy: 88.412
+eval avg class acc: 84.865
+
+  airplane:	1.000
+   bathtub:	0.840
+       bed:	0.990
+     bench:	0.700
+ bookshelf:	0.920
+    bottle:	0.950
+      bowl:	1.000
+       car:	0.980
+     chair:	0.970
+      cone:	0.950
+       cup:	0.700
+   curtain:	0.750
+      desk:	0.733
+      door:	0.900
+   dresser:	0.674
+flower_pot:	0.100
+ glass_box:	0.970
+    guitar:	1.000
+  keyboard:	1.000
+      lamp:	0.950
+    laptop:	1.000
+    mantel:	0.940
+   monitor:	0.910
+night_stand:	0.779
+    person:	0.950
+     piano:	0.830
+     plant:	0.800
+     radio:	0.700
+range_hood:	0.930
+      sink:	0.700
+      sofa:	0.970
+    stairs:	0.900
+     stool:	0.800
+     table:	0.880
+      tent:	0.950
+    toilet:	0.980
+  tv_stand:	0.870
+      vase:	0.780
+  wardrobe:	0.400
+      xbox:	0.800
+---------------------
+Time for Evaluating: 17.170544
+Loaded Model 235

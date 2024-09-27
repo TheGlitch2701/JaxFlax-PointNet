@@ -1,0 +1,8890 @@
+Namespace(log_dir='log_prova15', model='pointnet', num_point=1024, max_epoch=250, batch_size=32, learning_rate=0.001, momentum=0.9, optimizer='adam', decay_step=200000, decay_rate=0.7)
+===EPOCH 0===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 3.405569
+mean loss: 3.405569
+accuracy: 20.947 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 2.707895
+mean loss: 2.707895
+accuracy: 30.583 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 2.437979
+mean loss: 2.437979
+accuracy: 34.619 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 2.203507
+mean loss: 2.203508
+accuracy: 40.430 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 2.102859
+mean loss: 2.102859
+accuracy: 43.799 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 1.891048
+eval accuracy: 46.759
+eval avg class acc: 36.228
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (0) !
+
+Time Spent for epoch 0:	69.469740
+===EPOCH 1===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 1.934201
+mean loss: 1.934201
+accuracy: 46.240 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 1.825245
+mean loss: 1.825245
+accuracy: 49.902 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 1.720755
+mean loss: 1.720755
+accuracy: 53.418 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 1.754105
+mean loss: 1.754105
+accuracy: 52.670 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 1.621105
+mean loss: 1.621104
+accuracy: 54.834 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 1.588949
+eval accuracy: 56.929
+eval avg class acc: 46.702
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (1) !
+
+Time Spent for epoch 1:	41.159618
+===EPOCH 2===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 1.535598
+mean loss: 1.535598
+accuracy: 57.031 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 1.543592
+mean loss: 1.543592
+accuracy: 56.641 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 1.523761
+mean loss: 1.523761
+accuracy: 56.104 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 1.388219
+mean loss: 1.388219
+accuracy: 60.437 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 1.428843
+mean loss: 1.428843
+accuracy: 60.205 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 1.392220
+eval accuracy: 58.874
+eval avg class acc: 48.684
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (2) !
+
+Time Spent for epoch 2:	41.023663
+===EPOCH 3===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 1.343328
+mean loss: 1.343329
+accuracy: 61.475 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 1.311369
+mean loss: 1.311369
+accuracy: 62.988 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 1.349868
+mean loss: 1.349868
+accuracy: 61.182 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 1.296760
+mean loss: 1.296760
+accuracy: 63.228 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 1.267832
+mean loss: 1.267832
+accuracy: 63.428 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 1.229967
+eval accuracy: 63.614
+eval avg class acc: 55.106
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (3) !
+
+Time Spent for epoch 3:	40.959417
+===EPOCH 4===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 1.224443
+mean loss: 1.224443
+accuracy: 64.502 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 1.230376
+mean loss: 1.230376
+accuracy: 65.234 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 1.161109
+mean loss: 1.161108
+accuracy: 66.930 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 1.183320
+mean loss: 1.183320
+accuracy: 65.430 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 1.135672
+mean loss: 1.135672
+accuracy: 67.920 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 1.130630
+eval accuracy: 68.922
+eval avg class acc: 58.434
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (4) !
+
+Time Spent for epoch 4:	43.027245
+===EPOCH 5===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 1.163194
+mean loss: 1.163194
+accuracy: 65.918 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 1.094706
+mean loss: 1.094706
+accuracy: 68.204 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 1.127147
+mean loss: 1.127147
+accuracy: 66.504 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 1.117532
+mean loss: 1.117532
+accuracy: 68.115 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 1.083977
+mean loss: 1.083977
+accuracy: 69.189 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 1.049866
+eval accuracy: 69.125
+eval avg class acc: 61.044
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (5) !
+
+Time Spent for epoch 5:	40.974142
+===EPOCH 6===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 1.111871
+mean loss: 1.111871
+accuracy: 66.846 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 1.049189
+mean loss: 1.049189
+accuracy: 68.799 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 1.055429
+mean loss: 1.055429
+accuracy: 69.824 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 1.035885
+mean loss: 1.035885
+accuracy: 70.557 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 1.001843
+mean loss: 1.001843
+accuracy: 70.267 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 1.032908
+eval accuracy: 69.368
+eval avg class acc: 62.210
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (6) !
+
+Time Spent for epoch 6:	41.041315
+===EPOCH 7===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 1.037699
+mean loss: 1.037699
+accuracy: 70.020 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 1.007603
+mean loss: 1.007603
+accuracy: 70.361 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.959277
+mean loss: 0.959277
+accuracy: 72.573 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 1.006672
+mean loss: 1.006672
+accuracy: 70.605 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.980337
+mean loss: 0.980337
+accuracy: 72.363 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 1.013104
+eval accuracy: 70.381
+eval avg class acc: 62.187
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (7) !
+
+Time Spent for epoch 7:	41.077958
+===EPOCH 8===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 1.016198
+mean loss: 1.016199
+accuracy: 69.873 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.942050
+mean loss: 0.942049
+accuracy: 72.363 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 1.000098
+mean loss: 1.000099
+accuracy: 71.143 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.987811
+mean loss: 0.987812
+accuracy: 71.056 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.945276
+mean loss: 0.945276
+accuracy: 72.217 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.889754
+eval accuracy: 74.190
+eval avg class acc: 66.730
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (8) !
+
+Time Spent for epoch 8:	40.936050
+===EPOCH 9===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.903448
+mean loss: 0.903448
+accuracy: 74.023 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.962331
+mean loss: 0.962331
+accuracy: 71.289 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.924954
+mean loss: 0.924954
+accuracy: 73.779 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.934991
+mean loss: 0.934991
+accuracy: 71.924 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.833368
+mean loss: 0.833368
+accuracy: 75.728 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.855431
+eval accuracy: 75.162
+eval avg class acc: 67.756
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (9) !
+
+Time Spent for epoch 9:	40.963068
+===EPOCH 10===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.862571
+mean loss: 0.862571
+accuracy: 74.561 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.834018
+mean loss: 0.834018
+accuracy: 75.425 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.918086
+mean loss: 0.918085
+accuracy: 73.193 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.915641
+mean loss: 0.915641
+accuracy: 72.607 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.900399
+mean loss: 0.900399
+accuracy: 73.730 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.904041
+eval accuracy: 73.339
+eval avg class acc: 66.267
+
+---------------------
+Time Spent for epoch 10:	40.303926
+===EPOCH 11===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.892930
+mean loss: 0.892930
+accuracy: 73.145 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.859308
+mean loss: 0.859308
+accuracy: 75.146 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.857380
+mean loss: 0.857379
+accuracy: 75.488 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.812111
+mean loss: 0.812111
+accuracy: 75.850 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.875374
+mean loss: 0.875374
+accuracy: 74.121 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.803931
+eval accuracy: 75.405
+eval avg class acc: 67.684
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (11) !
+
+Time Spent for epoch 11:	40.928128
+===EPOCH 12===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.836449
+mean loss: 0.836449
+accuracy: 74.512 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.849143
+mean loss: 0.849143
+accuracy: 74.463 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.795729
+mean loss: 0.795730
+accuracy: 76.517 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.823823
+mean loss: 0.823823
+accuracy: 76.660 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.824154
+mean loss: 0.824155
+accuracy: 76.172 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.955759
+eval accuracy: 68.720
+eval avg class acc: 63.083
+
+---------------------
+Time Spent for epoch 12:	40.315588
+===EPOCH 13===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.773804
+mean loss: 0.773804
+accuracy: 78.418 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.847268
+mean loss: 0.847268
+accuracy: 75.342 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.850871
+mean loss: 0.850870
+accuracy: 74.756 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.778651
+mean loss: 0.778651
+accuracy: 77.427 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.821184
+mean loss: 0.821184
+accuracy: 76.367 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.819528
+eval accuracy: 76.053
+eval avg class acc: 69.992
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (13) !
+
+Time Spent for epoch 13:	40.910660
+===EPOCH 14===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.792811
+mean loss: 0.792811
+accuracy: 76.855 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.746299
+mean loss: 0.746299
+accuracy: 78.519 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.817405
+mean loss: 0.817405
+accuracy: 75.977 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.823947
+mean loss: 0.823947
+accuracy: 76.514 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.786594
+mean loss: 0.786594
+accuracy: 76.562 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.860221
+eval accuracy: 74.635
+eval avg class acc: 67.048
+
+---------------------
+Time Spent for epoch 14:	40.304907
+===EPOCH 15===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.744699
+mean loss: 0.744699
+accuracy: 77.791 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.785634
+mean loss: 0.785634
+accuracy: 76.123 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.805201
+mean loss: 0.805201
+accuracy: 76.514 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.792056
+mean loss: 0.792056
+accuracy: 75.928 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.746097
+mean loss: 0.746097
+accuracy: 77.881 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.735481
+eval accuracy: 78.444
+eval avg class acc: 73.447
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (15) !
+
+Time Spent for epoch 15:	40.983868
+===EPOCH 16===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.719477
+mean loss: 0.719478
+accuracy: 78.641 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.750300
+mean loss: 0.750300
+accuracy: 77.881 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.778669
+mean loss: 0.778669
+accuracy: 77.148 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.777030
+mean loss: 0.777030
+accuracy: 77.539 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.781227
+mean loss: 0.781227
+accuracy: 76.611 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.760742
+eval accuracy: 77.147
+eval avg class acc: 72.063
+
+---------------------
+Time Spent for epoch 16:	40.286938
+===EPOCH 17===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.758157
+mean loss: 0.758158
+accuracy: 77.246 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.739298
+mean loss: 0.739298
+accuracy: 78.711 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.740454
+mean loss: 0.740454
+accuracy: 77.588 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.693644
+mean loss: 0.693644
+accuracy: 79.430 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.751438
+mean loss: 0.751438
+accuracy: 78.076 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.745217
+eval accuracy: 78.728
+eval avg class acc: 72.586
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (17) !
+
+Time Spent for epoch 17:	40.953283
+===EPOCH 18===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.759185
+mean loss: 0.759185
+accuracy: 77.588 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.690901
+mean loss: 0.690901
+accuracy: 80.583 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.751967
+mean loss: 0.751967
+accuracy: 78.027 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.742332
+mean loss: 0.742332
+accuracy: 77.734 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.741460
+mean loss: 0.741461
+accuracy: 77.930 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.725765
+eval accuracy: 79.133
+eval avg class acc: 73.779
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (18) !
+
+Time Spent for epoch 18:	43.779983
+===EPOCH 19===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.719934
+mean loss: 0.719934
+accuracy: 79.492 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.738987
+mean loss: 0.738987
+accuracy: 78.125 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.698168
+mean loss: 0.698168
+accuracy: 79.102 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.693433
+mean loss: 0.693433
+accuracy: 79.854 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.739598
+mean loss: 0.739598
+accuracy: 77.783 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.767761
+eval accuracy: 77.350
+eval avg class acc: 70.593
+
+---------------------
+Time Spent for epoch 19:	40.377510
+===EPOCH 20===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.692873
+mean loss: 0.692872
+accuracy: 80.127 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.736062
+mean loss: 0.736062
+accuracy: 78.125 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.649229
+mean loss: 0.649229
+accuracy: 80.158 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.655102
+mean loss: 0.655103
+accuracy: 80.713 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.624175
+mean loss: 0.624175
+accuracy: 82.275 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.714807
+eval accuracy: 78.647
+eval avg class acc: 74.984
+
+---------------------
+Time Spent for epoch 20:	40.288823
+===EPOCH 21===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.642238
+mean loss: 0.642238
+accuracy: 81.735 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.634329
+mean loss: 0.634329
+accuracy: 82.275 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.650025
+mean loss: 0.650025
+accuracy: 81.982 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.680357
+mean loss: 0.680357
+accuracy: 81.592 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.677038
+mean loss: 0.677038
+accuracy: 80.469 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.656264
+eval accuracy: 80.024
+eval avg class acc: 74.633
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (21) !
+
+Time Spent for epoch 21:	40.860587
+===EPOCH 22===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.660555
+mean loss: 0.660555
+accuracy: 81.738 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.665078
+mean loss: 0.665078
+accuracy: 81.348 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.664324
+mean loss: 0.664324
+accuracy: 81.055 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.683287
+mean loss: 0.683287
+accuracy: 81.299 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.614503
+mean loss: 0.614503
+accuracy: 83.192 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.728144
+eval accuracy: 78.201
+eval avg class acc: 73.450
+
+---------------------
+Time Spent for epoch 22:	40.210256
+===EPOCH 23===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.608327
+mean loss: 0.608327
+accuracy: 82.828 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.696792
+mean loss: 0.696792
+accuracy: 81.152 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.672694
+mean loss: 0.672694
+accuracy: 80.225 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.644680
+mean loss: 0.644680
+accuracy: 81.836 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.636892
+mean loss: 0.636892
+accuracy: 81.299 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.663635
+eval accuracy: 80.511
+eval avg class acc: 76.445
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (23) !
+
+Time Spent for epoch 23:	43.020718
+===EPOCH 24===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.619040
+mean loss: 0.619040
+accuracy: 82.617 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.600126
+mean loss: 0.600126
+accuracy: 83.374 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.634822
+mean loss: 0.634822
+accuracy: 81.445 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.668648
+mean loss: 0.668648
+accuracy: 81.006 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.696640
+mean loss: 0.696640
+accuracy: 80.957 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.824509
+eval accuracy: 74.554
+eval avg class acc: 68.821
+
+---------------------
+Time Spent for epoch 24:	40.254735
+===EPOCH 25===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.624281
+mean loss: 0.624281
+accuracy: 82.129 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.640210
+mean loss: 0.640210
+accuracy: 81.543 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.630128
+mean loss: 0.630128
+accuracy: 83.105 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.620529
+mean loss: 0.620529
+accuracy: 82.949 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.662286
+mean loss: 0.662286
+accuracy: 80.957 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.677343
+eval accuracy: 80.835
+eval avg class acc: 75.715
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (25) !
+
+Time Spent for epoch 25:	41.036974
+===EPOCH 26===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.620685
+mean loss: 0.620685
+accuracy: 82.422 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.617177
+mean loss: 0.617177
+accuracy: 82.617 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.595738
+mean loss: 0.595738
+accuracy: 82.767 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.626282
+mean loss: 0.626282
+accuracy: 82.129 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.663371
+mean loss: 0.663371
+accuracy: 80.420 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.727671
+eval accuracy: 77.877
+eval avg class acc: 72.216
+
+---------------------
+Time Spent for epoch 26:	40.357713
+===EPOCH 27===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.615677
+mean loss: 0.615677
+accuracy: 82.666 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.607245
+mean loss: 0.607246
+accuracy: 82.706 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.628345
+mean loss: 0.628345
+accuracy: 81.396 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.631568
+mean loss: 0.631568
+accuracy: 81.738 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.620607
+mean loss: 0.620607
+accuracy: 82.324 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.685373
+eval accuracy: 79.741
+eval avg class acc: 75.285
+
+---------------------
+Time Spent for epoch 27:	40.304416
+===EPOCH 28===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.626932
+mean loss: 0.626932
+accuracy: 82.275 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.629916
+mean loss: 0.629916
+accuracy: 81.641 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.637692
+mean loss: 0.637692
+accuracy: 82.080 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.630696
+mean loss: 0.630696
+accuracy: 82.031 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.592520
+mean loss: 0.592520
+accuracy: 83.859 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.625566
+eval accuracy: 82.010
+eval avg class acc: 77.349
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (28) !
+
+Time Spent for epoch 28:	40.921670
+===EPOCH 29===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.600188
+mean loss: 0.600188
+accuracy: 83.057 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.579795
+mean loss: 0.579795
+accuracy: 83.594 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.623747
+mean loss: 0.623746
+accuracy: 82.715 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.617241
+mean loss: 0.617241
+accuracy: 82.342 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.612686
+mean loss: 0.612686
+accuracy: 82.812 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.717558
+eval accuracy: 79.011
+eval avg class acc: 72.268
+
+---------------------
+Time Spent for epoch 29:	40.266177
+===EPOCH 30===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.605641
+mean loss: 0.605641
+accuracy: 83.203 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.605298
+mean loss: 0.605298
+accuracy: 83.154 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.596194
+mean loss: 0.596194
+accuracy: 82.524 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.617267
+mean loss: 0.617267
+accuracy: 83.105 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.635086
+mean loss: 0.635086
+accuracy: 80.859 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.670282
+eval accuracy: 80.308
+eval avg class acc: 75.159
+
+---------------------
+Time Spent for epoch 30:	40.259916
+===EPOCH 31===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.636147
+mean loss: 0.636147
+accuracy: 81.348 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.610301
+mean loss: 0.610301
+accuracy: 82.861 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.590913
+mean loss: 0.590913
+accuracy: 83.057 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.596629
+mean loss: 0.596629
+accuracy: 83.252 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.626620
+mean loss: 0.626620
+accuracy: 81.250 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.724199
+eval accuracy: 79.173
+eval avg class acc: 72.804
+
+---------------------
+Time Spent for epoch 31:	40.257159
+===EPOCH 32===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.625187
+mean loss: 0.625187
+accuracy: 81.494 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.634318
+mean loss: 0.634318
+accuracy: 81.689 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.611997
+mean loss: 0.611997
+accuracy: 83.008 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.595952
+mean loss: 0.595953
+accuracy: 83.398 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.573938
+mean loss: 0.573938
+accuracy: 83.434 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.668361
+eval accuracy: 79.660
+eval avg class acc: 72.036
+
+---------------------
+Time Spent for epoch 32:	40.266900
+===EPOCH 33===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.562304
+mean loss: 0.562304
+accuracy: 84.326 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.637681
+mean loss: 0.637681
+accuracy: 81.543 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.570998
+mean loss: 0.570998
+accuracy: 84.648 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.617521
+mean loss: 0.617521
+accuracy: 81.885 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.577271
+mean loss: 0.577271
+accuracy: 83.398 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.750915
+eval accuracy: 77.715
+eval avg class acc: 71.489
+
+---------------------
+Time Spent for epoch 33:	40.223936
+===EPOCH 34===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.549283
+mean loss: 0.549283
+accuracy: 84.131 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.560628
+mean loss: 0.560628
+accuracy: 84.223 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.582214
+mean loss: 0.582214
+accuracy: 83.789 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.614175
+mean loss: 0.614175
+accuracy: 82.471 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.608261
+mean loss: 0.608261
+accuracy: 82.471 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.633035
+eval accuracy: 81.402
+eval avg class acc: 76.023
+
+---------------------
+Time Spent for epoch 34:	40.294612
+===EPOCH 35===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.560262
+mean loss: 0.560262
+accuracy: 84.163 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.579485
+mean loss: 0.579485
+accuracy: 83.008 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.586811
+mean loss: 0.586811
+accuracy: 84.277 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.588845
+mean loss: 0.588845
+accuracy: 83.154 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.627796
+mean loss: 0.627796
+accuracy: 81.738 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.691961
+eval accuracy: 78.201
+eval avg class acc: 70.857
+
+---------------------
+Time Spent for epoch 35:	40.325586
+===EPOCH 36===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.556285
+mean loss: 0.556285
+accuracy: 84.527 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.561120
+mean loss: 0.561120
+accuracy: 83.838 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.565706
+mean loss: 0.565706
+accuracy: 83.350 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.577411
+mean loss: 0.577411
+accuracy: 83.398 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.600816
+mean loss: 0.600816
+accuracy: 82.568 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.693287
+eval accuracy: 79.943
+eval avg class acc: 75.274
+
+---------------------
+Time Spent for epoch 36:	40.321354
+===EPOCH 37===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.582157
+mean loss: 0.582157
+accuracy: 82.959 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.592764
+mean loss: 0.592764
+accuracy: 83.203 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.621361
+mean loss: 0.621362
+accuracy: 82.129 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.587167
+mean loss: 0.587167
+accuracy: 84.163 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.577372
+mean loss: 0.577372
+accuracy: 83.252 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.689760
+eval accuracy: 79.254
+eval avg class acc: 72.349
+
+---------------------
+Time Spent for epoch 37:	40.327698
+===EPOCH 38===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.578263
+mean loss: 0.578263
+accuracy: 83.154 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.527092
+mean loss: 0.527092
+accuracy: 85.255 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.578939
+mean loss: 0.578939
+accuracy: 84.326 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.586408
+mean loss: 0.586408
+accuracy: 83.154 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.580501
+mean loss: 0.580501
+accuracy: 83.398 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.614759
+eval accuracy: 81.199
+eval avg class acc: 75.487
+
+---------------------
+Time Spent for epoch 38:	40.315032
+===EPOCH 39===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.559861
+mean loss: 0.559861
+accuracy: 83.887 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.580875
+mean loss: 0.580875
+accuracy: 84.131 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.578304
+mean loss: 0.578304
+accuracy: 82.861 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.563213
+mean loss: 0.563212
+accuracy: 83.799 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.597746
+mean loss: 0.597746
+accuracy: 82.666 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.678933
+eval accuracy: 78.687
+eval avg class acc: 74.076
+
+---------------------
+Time Spent for epoch 39:	40.386923
+===EPOCH 40===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.538403
+mean loss: 0.538403
+accuracy: 84.766 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.543316
+mean loss: 0.543316
+accuracy: 84.717 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.530371
+mean loss: 0.530371
+accuracy: 85.740 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.587842
+mean loss: 0.587841
+accuracy: 82.422 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.540335
+mean loss: 0.540335
+accuracy: 84.912 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.684072
+eval accuracy: 80.794
+eval avg class acc: 77.464
+
+---------------------
+Time Spent for epoch 40:	40.299131
+===EPOCH 41===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.511346
+mean loss: 0.511346
+accuracy: 85.205 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.485529
+mean loss: 0.485529
+accuracy: 86.893 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.526884
+mean loss: 0.526884
+accuracy: 85.010 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.514667
+mean loss: 0.514667
+accuracy: 86.035 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.543909
+mean loss: 0.543909
+accuracy: 84.473 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.635328
+eval accuracy: 80.592
+eval avg class acc: 74.697
+
+---------------------
+Time Spent for epoch 41:	40.270301
+===EPOCH 42===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.480180
+mean loss: 0.480181
+accuracy: 86.590 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.514814
+mean loss: 0.514814
+accuracy: 86.084 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.535415
+mean loss: 0.535415
+accuracy: 84.863 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.527625
+mean loss: 0.527626
+accuracy: 85.254 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.536504
+mean loss: 0.536504
+accuracy: 84.717 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.731755
+eval accuracy: 79.376
+eval avg class acc: 75.492
+
+---------------------
+Time Spent for epoch 42:	40.257146
+===EPOCH 43===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.490673
+mean loss: 0.490673
+accuracy: 86.475 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.538541
+mean loss: 0.538541
+accuracy: 84.814 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.543237
+mean loss: 0.543237
+accuracy: 85.400 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.500270
+mean loss: 0.500270
+accuracy: 86.347 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.537102
+mean loss: 0.537102
+accuracy: 85.449 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.766249
+eval accuracy: 77.310
+eval avg class acc: 72.252
+
+---------------------
+Time Spent for epoch 43:	40.279739
+===EPOCH 44===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.497660
+mean loss: 0.497660
+accuracy: 86.475 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.523979
+mean loss: 0.523979
+accuracy: 85.596 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.533341
+mean loss: 0.533341
+accuracy: 84.180 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.515291
+mean loss: 0.515291
+accuracy: 85.922 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.543034
+mean loss: 0.543033
+accuracy: 85.156 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.632248
+eval accuracy: 82.050
+eval avg class acc: 77.601
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (44) !
+
+Time Spent for epoch 44:	41.042943
+===EPOCH 45===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.515534
+mean loss: 0.515534
+accuracy: 85.938 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.526906
+mean loss: 0.526906
+accuracy: 86.182 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.488086
+mean loss: 0.488086
+accuracy: 87.318 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.530981
+mean loss: 0.530981
+accuracy: 85.010 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.518350
+mean loss: 0.518350
+accuracy: 85.840 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.914706
+eval accuracy: 72.812
+eval avg class acc: 68.347
+
+---------------------
+Time Spent for epoch 45:	40.332555
+===EPOCH 46===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.488861
+mean loss: 0.488861
+accuracy: 86.529 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.538072
+mean loss: 0.538072
+accuracy: 84.473 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.529460
+mean loss: 0.529460
+accuracy: 85.938 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.526347
+mean loss: 0.526347
+accuracy: 85.303 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.522869
+mean loss: 0.522870
+accuracy: 85.449 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.580218
+eval accuracy: 83.144
+eval avg class acc: 77.744
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (46) !
+
+Time Spent for epoch 46:	41.155807
+===EPOCH 47===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.507397
+mean loss: 0.507397
+accuracy: 86.279 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.513281
+mean loss: 0.513281
+accuracy: 86.035 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.521644
+mean loss: 0.521643
+accuracy: 86.279 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.496425
+mean loss: 0.496425
+accuracy: 86.711 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.536419
+mean loss: 0.536419
+accuracy: 84.375 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.741704
+eval accuracy: 78.687
+eval avg class acc: 72.606
+
+---------------------
+Time Spent for epoch 47:	40.323262
+===EPOCH 48===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.469183
+mean loss: 0.469183
+accuracy: 87.402 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.535216
+mean loss: 0.535216
+accuracy: 86.035 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.550507
+mean loss: 0.550507
+accuracy: 84.521 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.514507
+mean loss: 0.514507
+accuracy: 85.680 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.530708
+mean loss: 0.530708
+accuracy: 84.912 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.659795
+eval accuracy: 81.807
+eval avg class acc: 76.905
+
+---------------------
+Time Spent for epoch 48:	40.332903
+===EPOCH 49===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.478505
+mean loss: 0.478505
+accuracy: 87.354 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.480062
+mean loss: 0.480062
+accuracy: 87.257 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.546589
+mean loss: 0.546589
+accuracy: 84.424 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.527974
+mean loss: 0.527974
+accuracy: 85.205 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.513237
+mean loss: 0.513237
+accuracy: 86.426 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.635369
+eval accuracy: 81.483
+eval avg class acc: 75.592
+
+---------------------
+Time Spent for epoch 49:	40.304047
+===EPOCH 50===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.518266
+mean loss: 0.518266
+accuracy: 85.205 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.511969
+mean loss: 0.511969
+accuracy: 86.084 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.486160
+mean loss: 0.486160
+accuracy: 86.954 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.512501
+mean loss: 0.512501
+accuracy: 85.742 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.525028
+mean loss: 0.525028
+accuracy: 84.961 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.756257
+eval accuracy: 78.930
+eval avg class acc: 73.914
+
+---------------------
+Time Spent for epoch 50:	40.301552
+===EPOCH 51===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.518373
+mean loss: 0.518373
+accuracy: 85.742 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.522608
+mean loss: 0.522608
+accuracy: 85.400 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.496502
+mean loss: 0.496502
+accuracy: 86.572 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.489330
+mean loss: 0.489330
+accuracy: 86.347 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.530294
+mean loss: 0.530294
+accuracy: 84.619 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.709490
+eval accuracy: 79.295
+eval avg class acc: 75.660
+
+---------------------
+Time Spent for epoch 51:	40.266124
+===EPOCH 52===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.474292
+mean loss: 0.474292
+accuracy: 87.439 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.489852
+mean loss: 0.489852
+accuracy: 86.084 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.510113
+mean loss: 0.510113
+accuracy: 85.645 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.518886
+mean loss: 0.518886
+accuracy: 84.912 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.513530
+mean loss: 0.513530
+accuracy: 85.596 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.584146
+eval accuracy: 83.347
+eval avg class acc: 78.111
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (52) !
+
+Time Spent for epoch 52:	41.018833
+===EPOCH 53===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.476705
+mean loss: 0.476705
+accuracy: 87.379 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.519730
+mean loss: 0.519730
+accuracy: 85.352 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.527435
+mean loss: 0.527435
+accuracy: 85.498 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.507577
+mean loss: 0.507577
+accuracy: 85.156 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.542558
+mean loss: 0.542558
+accuracy: 84.717 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.618008
+eval accuracy: 81.888
+eval avg class acc: 76.594
+
+---------------------
+Time Spent for epoch 53:	40.332697
+===EPOCH 54===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.507776
+mean loss: 0.507776
+accuracy: 85.791 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.507001
+mean loss: 0.507001
+accuracy: 86.035 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.506212
+mean loss: 0.506212
+accuracy: 85.352 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.508745
+mean loss: 0.508745
+accuracy: 86.104 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.514421
+mean loss: 0.514421
+accuracy: 85.400 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.547092
+eval accuracy: 83.874
+eval avg class acc: 79.641
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (54) !
+
+Time Spent for epoch 54:	41.112273
+===EPOCH 55===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.504689
+mean loss: 0.504689
+accuracy: 86.719 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.472051
+mean loss: 0.472051
+accuracy: 87.743 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.507092
+mean loss: 0.507092
+accuracy: 85.840 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.498280
+mean loss: 0.498280
+accuracy: 85.547 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.516362
+mean loss: 0.516362
+accuracy: 85.400 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.666578
+eval accuracy: 79.173
+eval avg class acc: 73.738
+
+---------------------
+Time Spent for epoch 55:	40.234791
+===EPOCH 56===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.484736
+mean loss: 0.484736
+accuracy: 86.816 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.486638
+mean loss: 0.486638
+accuracy: 86.133 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.523879
+mean loss: 0.523879
+accuracy: 85.205 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.473510
+mean loss: 0.473510
+accuracy: 86.833 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.534472
+mean loss: 0.534473
+accuracy: 85.449 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.872685
+eval accuracy: 75.203
+eval avg class acc: 72.828
+
+---------------------
+Time Spent for epoch 56:	40.263314
+===EPOCH 57===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.493309
+mean loss: 0.493309
+accuracy: 86.084 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.498112
+mean loss: 0.498112
+accuracy: 86.523 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.506648
+mean loss: 0.506648
+accuracy: 85.558 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.514567
+mean loss: 0.514567
+accuracy: 85.303 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.516557
+mean loss: 0.516557
+accuracy: 85.938 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.680006
+eval accuracy: 80.592
+eval avg class acc: 75.350
+
+---------------------
+Time Spent for epoch 57:	40.298400
+===EPOCH 58===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.502585
+mean loss: 0.502585
+accuracy: 85.547 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.495404
+mean loss: 0.495404
+accuracy: 86.529 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.515663
+mean loss: 0.515663
+accuracy: 85.498 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.516707
+mean loss: 0.516706
+accuracy: 85.059 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.516230
+mean loss: 0.516230
+accuracy: 85.352 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.603605
+eval accuracy: 82.010
+eval avg class acc: 75.870
+
+---------------------
+Time Spent for epoch 58:	40.350033
+===EPOCH 59===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.499940
+mean loss: 0.499940
+accuracy: 85.840 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.509302
+mean loss: 0.509302
+accuracy: 86.328 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.519655
+mean loss: 0.519656
+accuracy: 85.156 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.496081
+mean loss: 0.496081
+accuracy: 85.498 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.521360
+mean loss: 0.521360
+accuracy: 85.107 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.737795
+eval accuracy: 77.188
+eval avg class acc: 73.980
+
+---------------------
+Time Spent for epoch 59:	40.255131
+===EPOCH 60===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.487901
+mean loss: 0.487901
+accuracy: 86.286 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.484244
+mean loss: 0.484244
+accuracy: 86.084 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.514613
+mean loss: 0.514614
+accuracy: 85.742 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.500450
+mean loss: 0.500450
+accuracy: 86.426 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.526330
+mean loss: 0.526330
+accuracy: 85.645 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.700249
+eval accuracy: 80.186
+eval avg class acc: 74.934
+
+---------------------
+Time Spent for epoch 60:	40.226189
+===EPOCH 61===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.498059
+mean loss: 0.498059
+accuracy: 86.963 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.481888
+mean loss: 0.481888
+accuracy: 86.621 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.461893
+mean loss: 0.461893
+accuracy: 87.402 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.475037
+mean loss: 0.475037
+accuracy: 87.061 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.460044
+mean loss: 0.460044
+accuracy: 87.561 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.563247
+eval accuracy: 83.630
+eval avg class acc: 77.548
+
+---------------------
+Time Spent for epoch 61:	40.326071
+===EPOCH 62===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.472678
+mean loss: 0.472678
+accuracy: 86.572 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.459346
+mean loss: 0.459346
+accuracy: 87.500 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.472491
+mean loss: 0.472491
+accuracy: 86.914 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.464776
+mean loss: 0.464776
+accuracy: 86.865 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.451552
+mean loss: 0.451552
+accuracy: 87.985 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.629163
+eval accuracy: 81.361
+eval avg class acc: 75.337
+
+---------------------
+Time Spent for epoch 62:	40.246751
+===EPOCH 63===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.451003
+mean loss: 0.451003
+accuracy: 87.646 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.464236
+mean loss: 0.464236
+accuracy: 87.695 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.476115
+mean loss: 0.476115
+accuracy: 87.646 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.441462
+mean loss: 0.441462
+accuracy: 88.592 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.474895
+mean loss: 0.474895
+accuracy: 86.768 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.621106
+eval accuracy: 81.523
+eval avg class acc: 76.531
+
+---------------------
+Time Spent for epoch 63:	40.211827
+===EPOCH 64===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.445697
+mean loss: 0.445697
+accuracy: 88.037 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.442122
+mean loss: 0.442122
+accuracy: 89.014 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.488599
+mean loss: 0.488599
+accuracy: 86.914 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.479418
+mean loss: 0.479418
+accuracy: 86.914 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.470221
+mean loss: 0.470221
+accuracy: 88.046 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 1.144350
+eval accuracy: 66.775
+eval avg class acc: 65.014
+
+---------------------
+Time Spent for epoch 64:	40.309401
+===EPOCH 65===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.455726
+mean loss: 0.455726
+accuracy: 87.549 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.475914
+mean loss: 0.475914
+accuracy: 86.914 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.467471
+mean loss: 0.467471
+accuracy: 87.061 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.445638
+mean loss: 0.445638
+accuracy: 87.561 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.468713
+mean loss: 0.468713
+accuracy: 87.012 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.916707
+eval accuracy: 73.339
+eval avg class acc: 70.441
+
+---------------------
+Time Spent for epoch 65:	40.242277
+===EPOCH 66===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.439582
+mean loss: 0.439582
+accuracy: 88.896 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.481292
+mean loss: 0.481292
+accuracy: 86.914 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.469319
+mean loss: 0.469320
+accuracy: 87.305 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.466384
+mean loss: 0.466384
+accuracy: 86.865 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.448839
+mean loss: 0.448839
+accuracy: 88.086 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.692722
+eval accuracy: 79.538
+eval avg class acc: 76.077
+
+---------------------
+Time Spent for epoch 66:	40.245524
+===EPOCH 67===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.435235
+mean loss: 0.435235
+accuracy: 89.160 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.427616
+mean loss: 0.427616
+accuracy: 87.925 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.448654
+mean loss: 0.448654
+accuracy: 87.695 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.475807
+mean loss: 0.475807
+accuracy: 87.305 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.469516
+mean loss: 0.469516
+accuracy: 86.768 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.675144
+eval accuracy: 80.754
+eval avg class acc: 76.488
+
+---------------------
+Time Spent for epoch 67:	40.346475
+===EPOCH 68===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.437919
+mean loss: 0.437919
+accuracy: 88.350 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.434790
+mean loss: 0.434790
+accuracy: 87.549 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.468542
+mean loss: 0.468542
+accuracy: 87.646 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.464872
+mean loss: 0.464872
+accuracy: 86.865 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.473004
+mean loss: 0.473004
+accuracy: 86.768 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.791497
+eval accuracy: 77.512
+eval avg class acc: 73.555
+
+---------------------
+Time Spent for epoch 68:	40.307163
+===EPOCH 69===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.437859
+mean loss: 0.437859
+accuracy: 88.653 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.477525
+mean loss: 0.477525
+accuracy: 86.523 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.465625
+mean loss: 0.465625
+accuracy: 88.232 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.449764
+mean loss: 0.449764
+accuracy: 88.184 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.460450
+mean loss: 0.460450
+accuracy: 86.670 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.691706
+eval accuracy: 79.133
+eval avg class acc: 74.108
+
+---------------------
+Time Spent for epoch 69:	40.338078
+===EPOCH 70===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.425024
+mean loss: 0.425024
+accuracy: 87.842 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.458013
+mean loss: 0.458013
+accuracy: 88.086 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.459056
+mean loss: 0.459056
+accuracy: 87.803 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.446618
+mean loss: 0.446618
+accuracy: 87.695 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.474477
+mean loss: 0.474477
+accuracy: 86.523 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.641866
+eval accuracy: 80.794
+eval avg class acc: 75.823
+
+---------------------
+Time Spent for epoch 70:	40.358903
+===EPOCH 71===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.445172
+mean loss: 0.445172
+accuracy: 87.598 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.431553
+mean loss: 0.431553
+accuracy: 88.350 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.455648
+mean loss: 0.455648
+accuracy: 88.428 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.469065
+mean loss: 0.469065
+accuracy: 87.451 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.479930
+mean loss: 0.479930
+accuracy: 86.523 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.831178
+eval accuracy: 76.013
+eval avg class acc: 71.800
+
+---------------------
+Time Spent for epoch 71:	40.094858
+===EPOCH 72===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.453310
+mean loss: 0.453311
+accuracy: 88.107 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.462603
+mean loss: 0.462603
+accuracy: 87.646 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.485354
+mean loss: 0.485354
+accuracy: 86.279 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.449359
+mean loss: 0.449359
+accuracy: 87.646 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.460624
+mean loss: 0.460624
+accuracy: 87.598 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.705808
+eval accuracy: 79.741
+eval avg class acc: 76.055
+
+---------------------
+Time Spent for epoch 72:	40.144712
+===EPOCH 73===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.456185
+mean loss: 0.456185
+accuracy: 87.109 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.431267
+mean loss: 0.431267
+accuracy: 88.532 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.454258
+mean loss: 0.454259
+accuracy: 88.037 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.469347
+mean loss: 0.469347
+accuracy: 86.963 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.459960
+mean loss: 0.459960
+accuracy: 87.061 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.875547
+eval accuracy: 75.203
+eval avg class acc: 71.930
+
+---------------------
+Time Spent for epoch 73:	40.327263
+===EPOCH 74===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.473930
+mean loss: 0.473930
+accuracy: 86.719 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.440309
+mean loss: 0.440308
+accuracy: 87.682 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.461937
+mean loss: 0.461937
+accuracy: 87.451 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.465216
+mean loss: 0.465216
+accuracy: 87.842 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.458277
+mean loss: 0.458277
+accuracy: 87.354 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.904779
+eval accuracy: 75.081
+eval avg class acc: 70.878
+
+---------------------
+Time Spent for epoch 74:	40.260544
+===EPOCH 75===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.452510
+mean loss: 0.452510
+accuracy: 87.939 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.444757
+mean loss: 0.444757
+accuracy: 87.646 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.439202
+mean loss: 0.439202
+accuracy: 87.864 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.443525
+mean loss: 0.443525
+accuracy: 87.842 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.479595
+mean loss: 0.479595
+accuracy: 87.109 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.644600
+eval accuracy: 80.227
+eval avg class acc: 74.091
+
+---------------------
+Time Spent for epoch 75:	40.263019
+===EPOCH 76===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.436875
+mean loss: 0.436875
+accuracy: 88.232 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.466089
+mean loss: 0.466089
+accuracy: 86.865 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.445199
+mean loss: 0.445199
+accuracy: 88.867 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.455352
+mean loss: 0.455352
+accuracy: 87.939 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.431530
+mean loss: 0.431530
+accuracy: 87.803 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.548528
+eval accuracy: 83.468
+eval avg class acc: 79.409
+
+---------------------
+Time Spent for epoch 76:	40.238482
+===EPOCH 77===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.450950
+mean loss: 0.450950
+accuracy: 87.842 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.442369
+mean loss: 0.442369
+accuracy: 88.232 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.446535
+mean loss: 0.446535
+accuracy: 87.646 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.461934
+mean loss: 0.461934
+accuracy: 87.646 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.452878
+mean loss: 0.452878
+accuracy: 87.318 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.641964
+eval accuracy: 81.969
+eval avg class acc: 77.963
+
+---------------------
+Time Spent for epoch 77:	40.248470
+===EPOCH 78===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.442060
+mean loss: 0.442060
+accuracy: 87.451 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.418952
+mean loss: 0.418952
+accuracy: 88.592 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.475070
+mean loss: 0.475070
+accuracy: 86.426 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.458785
+mean loss: 0.458785
+accuracy: 86.670 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.460144
+mean loss: 0.460144
+accuracy: 86.914 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.780745
+eval accuracy: 77.391
+eval avg class acc: 71.915
+
+---------------------
+Time Spent for epoch 78:	40.247255
+===EPOCH 79===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.428852
+mean loss: 0.428852
+accuracy: 88.965 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.464267
+mean loss: 0.464267
+accuracy: 87.061 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.439857
+mean loss: 0.439857
+accuracy: 87.549 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.463197
+mean loss: 0.463197
+accuracy: 86.475 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.448051
+mean loss: 0.448051
+accuracy: 88.167 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.716976
+eval accuracy: 78.768
+eval avg class acc: 73.876
+
+---------------------
+Time Spent for epoch 79:	40.294151
+===EPOCH 80===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.402719
+mean loss: 0.402719
+accuracy: 89.260 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.459702
+mean loss: 0.459702
+accuracy: 87.354 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.464684
+mean loss: 0.464684
+accuracy: 87.988 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.440064
+mean loss: 0.440064
+accuracy: 88.770 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.454593
+mean loss: 0.454593
+accuracy: 87.598 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.614114
+eval accuracy: 83.266
+eval avg class acc: 77.534
+
+---------------------
+Time Spent for epoch 80:	40.304604
+===EPOCH 81===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.422590
+mean loss: 0.422590
+accuracy: 88.281 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.427740
+mean loss: 0.427740
+accuracy: 88.350 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.445682
+mean loss: 0.445682
+accuracy: 87.744 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.446734
+mean loss: 0.446734
+accuracy: 87.988 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.435044
+mean loss: 0.435044
+accuracy: 87.744 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.683544
+eval accuracy: 80.632
+eval avg class acc: 77.631
+
+---------------------
+Time Spent for epoch 81:	40.248357
+===EPOCH 82===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.420693
+mean loss: 0.420693
+accuracy: 88.379 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.401297
+mean loss: 0.401297
+accuracy: 89.355 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.404916
+mean loss: 0.404916
+accuracy: 89.199 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.422291
+mean loss: 0.422291
+accuracy: 88.232 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.431794
+mean loss: 0.431794
+accuracy: 88.525 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.577912
+eval accuracy: 83.752
+eval avg class acc: 77.583
+
+---------------------
+Time Spent for epoch 82:	40.272644
+===EPOCH 83===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.391839
+mean loss: 0.391839
+accuracy: 89.941 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.422132
+mean loss: 0.422132
+accuracy: 88.916 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.402591
+mean loss: 0.402591
+accuracy: 88.896 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.424918
+mean loss: 0.424918
+accuracy: 88.525 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.447198
+mean loss: 0.447198
+accuracy: 87.842 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.567784
+eval accuracy: 82.861
+eval avg class acc: 77.170
+
+---------------------
+Time Spent for epoch 83:	40.333264
+===EPOCH 84===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.414126
+mean loss: 0.414126
+accuracy: 88.525 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.424666
+mean loss: 0.424666
+accuracy: 88.525 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.387681
+mean loss: 0.387681
+accuracy: 89.927 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.417315
+mean loss: 0.417315
+accuracy: 88.477 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.423608
+mean loss: 0.423608
+accuracy: 88.330 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.757560
+eval accuracy: 78.201
+eval avg class acc: 74.357
+
+---------------------
+Time Spent for epoch 84:	40.320655
+===EPOCH 85===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.415571
+mean loss: 0.415571
+accuracy: 88.525 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.411401
+mean loss: 0.411401
+accuracy: 89.111 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.421716
+mean loss: 0.421716
+accuracy: 89.453 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.395811
+mean loss: 0.395811
+accuracy: 89.806 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.421946
+mean loss: 0.421946
+accuracy: 88.818 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.888118
+eval accuracy: 74.878
+eval avg class acc: 71.480
+
+---------------------
+Time Spent for epoch 85:	40.275924
+===EPOCH 86===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.366402
+mean loss: 0.366402
+accuracy: 91.687 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.403722
+mean loss: 0.403722
+accuracy: 88.379 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.402048
+mean loss: 0.402048
+accuracy: 88.916 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.413323
+mean loss: 0.413322
+accuracy: 89.209 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.425140
+mean loss: 0.425140
+accuracy: 89.453 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.690284
+eval accuracy: 80.186
+eval avg class acc: 75.149
+
+---------------------
+Time Spent for epoch 86:	40.361587
+===EPOCH 87===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.407147
+mean loss: 0.407147
+accuracy: 89.355 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.406639
+mean loss: 0.406639
+accuracy: 88.965 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.413661
+mean loss: 0.413661
+accuracy: 88.867 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.394661
+mean loss: 0.394661
+accuracy: 90.049 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.416182
+mean loss: 0.416182
+accuracy: 88.428 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.670703
+eval accuracy: 80.267
+eval avg class acc: 77.388
+
+---------------------
+Time Spent for epoch 87:	40.263610
+===EPOCH 88===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.405980
+mean loss: 0.405980
+accuracy: 89.551 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.418610
+mean loss: 0.418610
+accuracy: 88.721 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.406565
+mean loss: 0.406565
+accuracy: 89.258 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.391156
+mean loss: 0.391156
+accuracy: 89.138 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.399307
+mean loss: 0.399307
+accuracy: 88.623 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.778330
+eval accuracy: 77.066
+eval avg class acc: 75.208
+
+---------------------
+Time Spent for epoch 88:	40.305264
+===EPOCH 89===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.386239
+mean loss: 0.386239
+accuracy: 89.806 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.395349
+mean loss: 0.395349
+accuracy: 89.600 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.421389
+mean loss: 0.421389
+accuracy: 88.965 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.424287
+mean loss: 0.424287
+accuracy: 88.770 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.415533
+mean loss: 0.415533
+accuracy: 88.037 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.581447
+eval accuracy: 83.266
+eval avg class acc: 77.924
+
+---------------------
+Time Spent for epoch 89:	40.308275
+===EPOCH 90===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.411047
+mean loss: 0.411047
+accuracy: 89.160 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.399414
+mean loss: 0.399414
+accuracy: 89.745 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.418605
+mean loss: 0.418605
+accuracy: 88.867 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.405917
+mean loss: 0.405917
+accuracy: 89.062 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.413043
+mean loss: 0.413043
+accuracy: 87.988 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.977814
+eval accuracy: 70.989
+eval avg class acc: 67.262
+
+---------------------
+Time Spent for epoch 90:	40.327005
+===EPOCH 91===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.374891
+mean loss: 0.374891
+accuracy: 90.170 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.409892
+mean loss: 0.409892
+accuracy: 89.453 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.412534
+mean loss: 0.412534
+accuracy: 89.014 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.417969
+mean loss: 0.417968
+accuracy: 89.160 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.420388
+mean loss: 0.420388
+accuracy: 88.770 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 1.054320
+eval accuracy: 70.786
+eval avg class acc: 65.644
+
+---------------------
+Time Spent for epoch 91:	40.278993
+===EPOCH 92===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.376464
+mean loss: 0.376464
+accuracy: 90.088 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.390686
+mean loss: 0.390686
+accuracy: 89.381 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.412057
+mean loss: 0.412057
+accuracy: 88.672 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.426339
+mean loss: 0.426339
+accuracy: 87.842 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.421891
+mean loss: 0.421891
+accuracy: 88.037 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.916689
+eval accuracy: 72.650
+eval avg class acc: 69.226
+
+---------------------
+Time Spent for epoch 92:	40.327898
+===EPOCH 93===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.404086
+mean loss: 0.404086
+accuracy: 90.283 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.403932
+mean loss: 0.403932
+accuracy: 88.672 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.394360
+mean loss: 0.394360
+accuracy: 89.160 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.425711
+mean loss: 0.425711
+accuracy: 88.037 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.403107
+mean loss: 0.403107
+accuracy: 89.502 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.746195
+eval accuracy: 79.092
+eval avg class acc: 77.069
+
+---------------------
+Time Spent for epoch 93:	40.266240
+===EPOCH 94===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.402640
+mean loss: 0.402640
+accuracy: 89.551 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.403688
+mean loss: 0.403688
+accuracy: 88.916 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.378302
+mean loss: 0.378302
+accuracy: 90.231 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.415897
+mean loss: 0.415897
+accuracy: 88.574 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.416362
+mean loss: 0.416362
+accuracy: 88.770 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 1.183850
+eval accuracy: 67.180
+eval avg class acc: 65.972
+
+---------------------
+Time Spent for epoch 94:	40.288090
+===EPOCH 95===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.384792
+mean loss: 0.384793
+accuracy: 89.624 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.408954
+mean loss: 0.408954
+accuracy: 88.428 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.411978
+mean loss: 0.411978
+accuracy: 88.965 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.405625
+mean loss: 0.405625
+accuracy: 88.330 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.410984
+mean loss: 0.410984
+accuracy: 89.404 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.561579
+eval accuracy: 83.185
+eval avg class acc: 78.219
+
+---------------------
+Time Spent for epoch 95:	40.287516
+===EPOCH 96===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.391475
+mean loss: 0.391475
+accuracy: 89.684 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.389848
+mean loss: 0.389848
+accuracy: 89.502 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.400141
+mean loss: 0.400141
+accuracy: 89.258 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.406395
+mean loss: 0.406395
+accuracy: 87.939 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.434136
+mean loss: 0.434136
+accuracy: 88.086 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.735045
+eval accuracy: 78.201
+eval avg class acc: 74.455
+
+---------------------
+Time Spent for epoch 96:	40.249888
+===EPOCH 97===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.380362
+mean loss: 0.380362
+accuracy: 90.088 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.406554
+mean loss: 0.406554
+accuracy: 88.770 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.408857
+mean loss: 0.408857
+accuracy: 88.916 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.407086
+mean loss: 0.407086
+accuracy: 88.818 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.397088
+mean loss: 0.397088
+accuracy: 89.320 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.772474
+eval accuracy: 77.674
+eval avg class acc: 72.058
+
+---------------------
+Time Spent for epoch 97:	40.293444
+===EPOCH 98===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.424013
+mean loss: 0.424013
+accuracy: 88.721 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.379544
+mean loss: 0.379544
+accuracy: 90.674 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.367642
+mean loss: 0.367642
+accuracy: 90.291 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.404232
+mean loss: 0.404232
+accuracy: 88.574 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.428058
+mean loss: 0.428058
+accuracy: 88.574 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.586646
+eval accuracy: 82.699
+eval avg class acc: 77.698
+
+---------------------
+Time Spent for epoch 98:	40.235654
+===EPOCH 99===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.395110
+mean loss: 0.395110
+accuracy: 89.062 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.399966
+mean loss: 0.399966
+accuracy: 89.502 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.413290
+mean loss: 0.413290
+accuracy: 88.916 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.416832
+mean loss: 0.416832
+accuracy: 88.867 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.373576
+mean loss: 0.373576
+accuracy: 90.473 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.725135
+eval accuracy: 79.579
+eval avg class acc: 77.006
+
+---------------------
+Time Spent for epoch 99:	40.303041
+===EPOCH 100===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.395247
+mean loss: 0.395247
+accuracy: 89.502 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.368083
+mean loss: 0.368083
+accuracy: 90.352 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.403631
+mean loss: 0.403631
+accuracy: 88.721 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.402826
+mean loss: 0.402826
+accuracy: 88.379 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.418472
+mean loss: 0.418472
+accuracy: 88.623 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.621783
+eval accuracy: 81.929
+eval avg class acc: 78.105
+
+---------------------
+Time Spent for epoch 100:	40.287737
+===EPOCH 101===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.383830
+mean loss: 0.383830
+accuracy: 89.697 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.393954
+mean loss: 0.393954
+accuracy: 89.600 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.399160
+mean loss: 0.399160
+accuracy: 89.320 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.407862
+mean loss: 0.407862
+accuracy: 88.330 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.404951
+mean loss: 0.404951
+accuracy: 88.818 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.824338
+eval accuracy: 76.013
+eval avg class acc: 74.460
+
+---------------------
+Time Spent for epoch 101:	40.255373
+===EPOCH 102===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.346903
+mean loss: 0.346903
+accuracy: 91.383 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.370268
+mean loss: 0.370268
+accuracy: 89.697 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.388677
+mean loss: 0.388677
+accuracy: 89.844 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.373837
+mean loss: 0.373837
+accuracy: 89.404 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.380014
+mean loss: 0.380014
+accuracy: 89.355 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.724437
+eval accuracy: 80.267
+eval avg class acc: 76.973
+
+---------------------
+Time Spent for epoch 102:	40.234938
+===EPOCH 103===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.371902
+mean loss: 0.371902
+accuracy: 90.430 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.352352
+mean loss: 0.352352
+accuracy: 90.186 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.361427
+mean loss: 0.361427
+accuracy: 90.413 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.376904
+mean loss: 0.376904
+accuracy: 90.576 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.383239
+mean loss: 0.383239
+accuracy: 89.697 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.605681
+eval accuracy: 83.144
+eval avg class acc: 78.858
+
+---------------------
+Time Spent for epoch 103:	40.262162
+===EPOCH 104===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.369608
+mean loss: 0.369608
+accuracy: 89.990 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.380690
+mean loss: 0.380690
+accuracy: 90.186 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.366895
+mean loss: 0.366895
+accuracy: 90.430 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.367852
+mean loss: 0.367852
+accuracy: 90.381 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.362327
+mean loss: 0.362327
+accuracy: 90.837 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.754049
+eval accuracy: 77.674
+eval avg class acc: 73.191
+
+---------------------
+Time Spent for epoch 104:	40.275126
+===EPOCH 105===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.337433
+mean loss: 0.337433
+accuracy: 91.141 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.377393
+mean loss: 0.377393
+accuracy: 89.990 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.373915
+mean loss: 0.373915
+accuracy: 90.186 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.368279
+mean loss: 0.368279
+accuracy: 90.137 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.386103
+mean loss: 0.386102
+accuracy: 90.137 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.737130
+eval accuracy: 78.647
+eval avg class acc: 73.228
+
+---------------------
+Time Spent for epoch 105:	40.254431
+===EPOCH 106===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.369530
+mean loss: 0.369530
+accuracy: 90.283 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.365243
+mean loss: 0.365243
+accuracy: 89.990 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.358611
+mean loss: 0.358611
+accuracy: 90.777 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.362677
+mean loss: 0.362677
+accuracy: 90.869 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.375511
+mean loss: 0.375511
+accuracy: 89.893 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.627266
+eval accuracy: 81.240
+eval avg class acc: 77.459
+
+---------------------
+Time Spent for epoch 106:	40.286117
+===EPOCH 107===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.347023
+mean loss: 0.347023
+accuracy: 91.016 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.382149
+mean loss: 0.382149
+accuracy: 89.941 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.365986
+mean loss: 0.365986
+accuracy: 90.088 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.363221
+mean loss: 0.363221
+accuracy: 91.016 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.351452
+mean loss: 0.351452
+accuracy: 91.141 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.843933
+eval accuracy: 74.554
+eval avg class acc: 72.629
+
+---------------------
+Time Spent for epoch 107:	40.381333
+===EPOCH 108===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.360486
+mean loss: 0.360486
+accuracy: 90.869 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.381819
+mean loss: 0.381819
+accuracy: 89.404 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.362941
+mean loss: 0.362941
+accuracy: 90.479 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.347392
+mean loss: 0.347392
+accuracy: 91.141 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.373068
+mean loss: 0.373068
+accuracy: 89.844 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.958093
+eval accuracy: 69.935
+eval avg class acc: 69.100
+
+---------------------
+Time Spent for epoch 108:	40.219080
+===EPOCH 109===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.368075
+mean loss: 0.368075
+accuracy: 90.723 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.326611
+mean loss: 0.326611
+accuracy: 92.051 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.364045
+mean loss: 0.364046
+accuracy: 89.844 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.381077
+mean loss: 0.381077
+accuracy: 90.088 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.372171
+mean loss: 0.372171
+accuracy: 89.941 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.590650
+eval accuracy: 83.185
+eval avg class acc: 78.464
+
+---------------------
+Time Spent for epoch 109:	40.218014
+===EPOCH 110===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.366657
+mean loss: 0.366657
+accuracy: 90.234 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.379304
+mean loss: 0.379304
+accuracy: 90.967 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.360345
+mean loss: 0.360345
+accuracy: 90.967 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.343903
+mean loss: 0.343903
+accuracy: 90.837 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.370736
+mean loss: 0.370736
+accuracy: 89.648 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.755253
+eval accuracy: 77.472
+eval avg class acc: 74.214
+
+---------------------
+Time Spent for epoch 110:	40.273106
+===EPOCH 111===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.376888
+mean loss: 0.376888
+accuracy: 89.600 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.353921
+mean loss: 0.353921
+accuracy: 90.716 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.367497
+mean loss: 0.367497
+accuracy: 90.430 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.363723
+mean loss: 0.363723
+accuracy: 90.771 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.365786
+mean loss: 0.365786
+accuracy: 90.381 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.808120
+eval accuracy: 76.418
+eval avg class acc: 72.796
+
+---------------------
+Time Spent for epoch 111:	40.227885
+===EPOCH 112===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.339472
+mean loss: 0.339472
+accuracy: 91.113 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.341895
+mean loss: 0.341895
+accuracy: 90.898 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.369050
+mean loss: 0.369050
+accuracy: 89.795 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.370248
+mean loss: 0.370248
+accuracy: 90.283 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.359556
+mean loss: 0.359556
+accuracy: 90.527 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.607391
+eval accuracy: 82.982
+eval avg class acc: 79.988
+
+---------------------
+Time Spent for epoch 112:	40.155048
+===EPOCH 113===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.360000
+mean loss: 0.360000
+accuracy: 89.648 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.345855
+mean loss: 0.345855
+accuracy: 91.211 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.344630
+mean loss: 0.344631
+accuracy: 91.080 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.355421
+mean loss: 0.355420
+accuracy: 91.113 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.377712
+mean loss: 0.377712
+accuracy: 89.844 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.656705
+eval accuracy: 81.240
+eval avg class acc: 78.352
+
+---------------------
+Time Spent for epoch 113:	40.261659
+===EPOCH 114===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.339881
+mean loss: 0.339881
+accuracy: 91.504 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.366104
+mean loss: 0.366104
+accuracy: 89.844 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.339169
+mean loss: 0.339169
+accuracy: 92.172 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.357547
+mean loss: 0.357547
+accuracy: 90.967 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.372954
+mean loss: 0.372954
+accuracy: 90.332 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.681711
+eval accuracy: 78.768
+eval avg class acc: 75.061
+
+---------------------
+Time Spent for epoch 114:	40.260280
+===EPOCH 115===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.348675
+mean loss: 0.348675
+accuracy: 90.430 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.374756
+mean loss: 0.374756
+accuracy: 90.283 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.365477
+mean loss: 0.365477
+accuracy: 90.918 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.357720
+mean loss: 0.357720
+accuracy: 90.723 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.343449
+mean loss: 0.343450
+accuracy: 91.080 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.678045
+eval accuracy: 80.105
+eval avg class acc: 76.989
+
+---------------------
+Time Spent for epoch 115:	40.336806
+===EPOCH 116===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.335592
+mean loss: 0.335592
+accuracy: 91.357 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.377207
+mean loss: 0.377207
+accuracy: 89.355 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.353327
+mean loss: 0.353327
+accuracy: 90.777 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.366372
+mean loss: 0.366372
+accuracy: 90.137 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.378011
+mean loss: 0.378011
+accuracy: 90.039 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.592789
+eval accuracy: 83.104
+eval avg class acc: 77.408
+
+---------------------
+Time Spent for epoch 116:	40.388505
+===EPOCH 117===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.332642
+mean loss: 0.332642
+accuracy: 91.869 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.362531
+mean loss: 0.362531
+accuracy: 90.967 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.354810
+mean loss: 0.354810
+accuracy: 90.869 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.358234
+mean loss: 0.358234
+accuracy: 90.674 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.381843
+mean loss: 0.381843
+accuracy: 89.307 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.864584
+eval accuracy: 75.324
+eval avg class acc: 73.731
+
+---------------------
+Time Spent for epoch 117:	40.315474
+===EPOCH 118===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.355892
+mean loss: 0.355892
+accuracy: 90.430 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.346842
+mean loss: 0.346842
+accuracy: 91.211 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.369870
+mean loss: 0.369870
+accuracy: 90.332 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.346332
+mean loss: 0.346332
+accuracy: 91.019 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.368873
+mean loss: 0.368874
+accuracy: 89.600 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.684264
+eval accuracy: 79.619
+eval avg class acc: 76.362
+
+---------------------
+Time Spent for epoch 118:	40.323201
+===EPOCH 119===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.350090
+mean loss: 0.350090
+accuracy: 90.771 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.361814
+mean loss: 0.361814
+accuracy: 90.234 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.343546
+mean loss: 0.343546
+accuracy: 91.505 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.358149
+mean loss: 0.358148
+accuracy: 90.039 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.361819
+mean loss: 0.361819
+accuracy: 90.332 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.717275
+eval accuracy: 79.660
+eval avg class acc: 75.590
+
+---------------------
+Time Spent for epoch 119:	40.248320
+===EPOCH 120===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.326163
+mean loss: 0.326163
+accuracy: 91.444 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.351992
+mean loss: 0.351992
+accuracy: 90.869 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.375586
+mean loss: 0.375586
+accuracy: 89.648 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.374899
+mean loss: 0.374899
+accuracy: 89.014 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.368543
+mean loss: 0.368543
+accuracy: 90.039 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.804864
+eval accuracy: 76.580
+eval avg class acc: 75.060
+
+---------------------
+Time Spent for epoch 120:	40.275981
+===EPOCH 121===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.354049
+mean loss: 0.354049
+accuracy: 90.479 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.351342
+mean loss: 0.351342
+accuracy: 90.967 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.339965
+mean loss: 0.339965
+accuracy: 90.967 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.352268
+mean loss: 0.352268
+accuracy: 90.716 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.360079
+mean loss: 0.360079
+accuracy: 89.941 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 1.084181
+eval accuracy: 68.598
+eval avg class acc: 68.095
+
+---------------------
+Time Spent for epoch 121:	40.299160
+===EPOCH 122===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.373876
+mean loss: 0.373876
+accuracy: 89.648 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.351056
+mean loss: 0.351056
+accuracy: 91.406 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.334931
+mean loss: 0.334931
+accuracy: 91.748 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.317580
+mean loss: 0.317580
+accuracy: 92.476 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.333426
+mean loss: 0.333426
+accuracy: 90.625 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.604599
+eval accuracy: 81.969
+eval avg class acc: 77.956
+
+---------------------
+Time Spent for epoch 122:	40.420076
+===EPOCH 123===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.340289
+mean loss: 0.340289
+accuracy: 91.309 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.341600
+mean loss: 0.341600
+accuracy: 91.260 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.330040
+mean loss: 0.330040
+accuracy: 91.650 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.336433
+mean loss: 0.336433
+accuracy: 90.771 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.329448
+mean loss: 0.329448
+accuracy: 91.930 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.551423
+eval accuracy: 83.549
+eval avg class acc: 79.150
+
+---------------------
+Time Spent for epoch 123:	40.352497
+===EPOCH 124===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.338447
+mean loss: 0.338447
+accuracy: 91.357 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.332030
+mean loss: 0.332030
+accuracy: 91.309 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.341766
+mean loss: 0.341766
+accuracy: 90.869 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.334545
+mean loss: 0.334545
+accuracy: 91.566 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.345239
+mean loss: 0.345239
+accuracy: 90.527 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.552196
+eval accuracy: 84.522
+eval avg class acc: 81.148
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (124) !
+
+Time Spent for epoch 124:	41.693379
+===EPOCH 125===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.325451
+mean loss: 0.325451
+accuracy: 91.943 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.338293
+mean loss: 0.338293
+accuracy: 91.504 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.336673
+mean loss: 0.336673
+accuracy: 90.967 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.331941
+mean loss: 0.331942
+accuracy: 91.357 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.321546
+mean loss: 0.321546
+accuracy: 91.444 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.521052
+eval accuracy: 84.927
+eval avg class acc: 79.390
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (125) !
+
+Time Spent for epoch 125:	41.374072
+===EPOCH 126===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.287958
+mean loss: 0.287958
+accuracy: 92.840 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.324159
+mean loss: 0.324159
+accuracy: 91.602 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.345267
+mean loss: 0.345267
+accuracy: 91.162 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.335315
+mean loss: 0.335315
+accuracy: 91.162 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.338437
+mean loss: 0.338438
+accuracy: 90.967 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.542070
+eval accuracy: 84.603
+eval avg class acc: 79.883
+
+---------------------
+Time Spent for epoch 126:	40.290353
+===EPOCH 127===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.326890
+mean loss: 0.326890
+accuracy: 91.260 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.323276
+mean loss: 0.323276
+accuracy: 91.990 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.339270
+mean loss: 0.339270
+accuracy: 91.602 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.333105
+mean loss: 0.333105
+accuracy: 91.064 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.336734
+mean loss: 0.336734
+accuracy: 90.869 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.619759
+eval accuracy: 83.063
+eval avg class acc: 78.626
+
+---------------------
+Time Spent for epoch 127:	40.343595
+===EPOCH 128===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.321706
+mean loss: 0.321706
+accuracy: 91.357 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.327827
+mean loss: 0.327827
+accuracy: 92.334 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.333835
+mean loss: 0.333835
+accuracy: 91.602 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.343705
+mean loss: 0.343705
+accuracy: 90.527 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.322453
+mean loss: 0.322453
+accuracy: 91.566 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.604872
+eval accuracy: 83.387
+eval avg class acc: 79.696
+
+---------------------
+Time Spent for epoch 128:	40.339002
+===EPOCH 129===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.287951
+mean loss: 0.287952
+accuracy: 93.265 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.335440
+mean loss: 0.335440
+accuracy: 90.967 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.334607
+mean loss: 0.334607
+accuracy: 90.576 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.335765
+mean loss: 0.335765
+accuracy: 91.211 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.343743
+mean loss: 0.343743
+accuracy: 91.260 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.606759
+eval accuracy: 82.131
+eval avg class acc: 77.940
+
+---------------------
+Time Spent for epoch 129:	40.415603
+===EPOCH 130===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.321917
+mean loss: 0.321917
+accuracy: 92.236 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.319505
+mean loss: 0.319505
+accuracy: 92.041 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.324083
+mean loss: 0.324083
+accuracy: 91.846 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.330781
+mean loss: 0.330781
+accuracy: 91.566 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.325830
+mean loss: 0.325830
+accuracy: 90.918 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.718371
+eval accuracy: 80.389
+eval avg class acc: 77.800
+
+---------------------
+Time Spent for epoch 130:	40.266364
+===EPOCH 131===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.327579
+mean loss: 0.327579
+accuracy: 91.455 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.322355
+mean loss: 0.322355
+accuracy: 92.090 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.332209
+mean loss: 0.332209
+accuracy: 91.895 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.319107
+mean loss: 0.319107
+accuracy: 91.930 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.340225
+mean loss: 0.340225
+accuracy: 90.674 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.645610
+eval accuracy: 81.848
+eval avg class acc: 78.537
+
+---------------------
+Time Spent for epoch 131:	40.312720
+===EPOCH 132===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.300857
+mean loss: 0.300857
+accuracy: 92.779 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.307024
+mean loss: 0.307024
+accuracy: 91.748 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.340000
+mean loss: 0.340000
+accuracy: 91.406 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.341047
+mean loss: 0.341047
+accuracy: 90.674 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.337620
+mean loss: 0.337620
+accuracy: 91.113 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.677290
+eval accuracy: 80.511
+eval avg class acc: 76.364
+
+---------------------
+Time Spent for epoch 132:	40.359483
+===EPOCH 133===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.300600
+mean loss: 0.300600
+accuracy: 92.676 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.337934
+mean loss: 0.337934
+accuracy: 90.771 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.321130
+mean loss: 0.321130
+accuracy: 92.041 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.338072
+mean loss: 0.338072
+accuracy: 91.016 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.316327
+mean loss: 0.316327
+accuracy: 91.566 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.563243
+eval accuracy: 84.441
+eval avg class acc: 80.569
+
+---------------------
+Time Spent for epoch 133:	40.323595
+===EPOCH 134===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.325616
+mean loss: 0.325616
+accuracy: 91.211 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.309163
+mean loss: 0.309163
+accuracy: 92.354 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.333087
+mean loss: 0.333087
+accuracy: 91.260 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.325125
+mean loss: 0.325125
+accuracy: 91.309 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.329912
+mean loss: 0.329912
+accuracy: 91.357 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.572420
+eval accuracy: 83.387
+eval avg class acc: 77.720
+
+---------------------
+Time Spent for epoch 134:	40.248677
+===EPOCH 135===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.325770
+mean loss: 0.325770
+accuracy: 91.748 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.323115
+mean loss: 0.323115
+accuracy: 90.820 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.324852
+mean loss: 0.324852
+accuracy: 92.041 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.317561
+mean loss: 0.317561
+accuracy: 91.626 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.332372
+mean loss: 0.332372
+accuracy: 91.064 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.553108
+eval accuracy: 83.833
+eval avg class acc: 80.655
+
+---------------------
+Time Spent for epoch 135:	40.368847
+===EPOCH 136===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.325299
+mean loss: 0.325299
+accuracy: 91.504 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.302860
+mean loss: 0.302860
+accuracy: 92.415 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.345036
+mean loss: 0.345036
+accuracy: 90.820 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.314690
+mean loss: 0.314690
+accuracy: 92.041 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.316518
+mean loss: 0.316518
+accuracy: 91.895 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.550522
+eval accuracy: 83.955
+eval avg class acc: 80.266
+
+---------------------
+Time Spent for epoch 136:	40.405146
+===EPOCH 137===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.314852
+mean loss: 0.314852
+accuracy: 91.357 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.315135
+mean loss: 0.315135
+accuracy: 92.112 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.323353
+mean loss: 0.323353
+accuracy: 91.406 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.325865
+mean loss: 0.325865
+accuracy: 91.504 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.342181
+mean loss: 0.342181
+accuracy: 91.309 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.799940
+eval accuracy: 76.135
+eval avg class acc: 73.053
+
+---------------------
+Time Spent for epoch 137:	40.342206
+===EPOCH 138===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.309937
+mean loss: 0.309937
+accuracy: 91.748 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.310350
+mean loss: 0.310350
+accuracy: 92.294 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.324163
+mean loss: 0.324163
+accuracy: 91.553 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.325398
+mean loss: 0.325398
+accuracy: 91.406 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.334174
+mean loss: 0.334174
+accuracy: 91.064 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.829212
+eval accuracy: 75.972
+eval avg class acc: 72.394
+
+---------------------
+Time Spent for epoch 138:	40.332458
+===EPOCH 139===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.330938
+mean loss: 0.330938
+accuracy: 91.602 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.312907
+mean loss: 0.312907
+accuracy: 92.041 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.333751
+mean loss: 0.333751
+accuracy: 91.505 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.314699
+mean loss: 0.314699
+accuracy: 92.529 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.335299
+mean loss: 0.335299
+accuracy: 90.576 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.953486
+eval accuracy: 70.665
+eval avg class acc: 66.869
+
+---------------------
+Time Spent for epoch 139:	40.358382
+===EPOCH 140===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.334600
+mean loss: 0.334600
+accuracy: 91.211 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.320209
+mean loss: 0.320209
+accuracy: 91.895 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.336141
+mean loss: 0.336141
+accuracy: 90.723 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.339090
+mean loss: 0.339090
+accuracy: 91.162 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.312601
+mean loss: 0.312601
+accuracy: 92.233 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.532431
+eval accuracy: 84.481
+eval avg class acc: 80.477
+
+---------------------
+Time Spent for epoch 140:	40.370546
+===EPOCH 141===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.316369
+mean loss: 0.316369
+accuracy: 91.553 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.323262
+mean loss: 0.323262
+accuracy: 91.406 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.293866
+mean loss: 0.293866
+accuracy: 93.022 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.313932
+mean loss: 0.313932
+accuracy: 92.236 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.332968
+mean loss: 0.332968
+accuracy: 90.283 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.720700
+eval accuracy: 78.566
+eval avg class acc: 76.172
+
+---------------------
+Time Spent for epoch 141:	40.286278
+===EPOCH 142===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.329356
+mean loss: 0.329356
+accuracy: 90.918 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.319105
+mean loss: 0.319105
+accuracy: 92.383 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.310391
+mean loss: 0.310391
+accuracy: 91.455 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.310552
+mean loss: 0.310552
+accuracy: 91.943 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.310488
+mean loss: 0.310488
+accuracy: 91.930 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.545828
+eval accuracy: 84.117
+eval avg class acc: 79.920
+
+---------------------
+Time Spent for epoch 142:	40.348274
+===EPOCH 143===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.307988
+mean loss: 0.307988
+accuracy: 92.480 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.297545
+mean loss: 0.297545
+accuracy: 92.536 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.308092
+mean loss: 0.308092
+accuracy: 91.650 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.306560
+mean loss: 0.306560
+accuracy: 92.627 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.311007
+mean loss: 0.311007
+accuracy: 92.041 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.491902
+eval accuracy: 85.373
+eval avg class acc: 80.372
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (143) !
+
+Time Spent for epoch 143:	41.655916
+===EPOCH 144===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.308412
+mean loss: 0.308412
+accuracy: 91.553 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.306696
+mean loss: 0.306696
+accuracy: 92.090 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.305432
+mean loss: 0.305432
+accuracy: 92.090 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.312839
+mean loss: 0.312839
+accuracy: 92.480 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.299496
+mean loss: 0.299496
+accuracy: 92.476 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.549242
+eval accuracy: 83.428
+eval avg class acc: 79.963
+
+---------------------
+Time Spent for epoch 144:	40.436001
+===EPOCH 145===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.303705
+mean loss: 0.303705
+accuracy: 92.822 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.306315
+mean loss: 0.306315
+accuracy: 91.797 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.301921
+mean loss: 0.301921
+accuracy: 93.018 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.309537
+mean loss: 0.309537
+accuracy: 92.383 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.290037
+mean loss: 0.290037
+accuracy: 92.658 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.583202
+eval accuracy: 83.468
+eval avg class acc: 80.760
+
+---------------------
+Time Spent for epoch 145:	40.267148
+===EPOCH 146===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.302030
+mean loss: 0.302030
+accuracy: 92.139 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.301847
+mean loss: 0.301847
+accuracy: 91.553 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.314664
+mean loss: 0.314664
+accuracy: 92.236 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.288866
+mean loss: 0.288866
+accuracy: 93.022 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.293192
+mean loss: 0.293192
+accuracy: 92.725 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.455123
+eval accuracy: 86.426
+eval avg class acc: 83.507
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (146) !
+
+Time Spent for epoch 146:	41.644265
+===EPOCH 147===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.300001
+mean loss: 0.300001
+accuracy: 92.383 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.305516
+mean loss: 0.305516
+accuracy: 92.432 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.301340
+mean loss: 0.301340
+accuracy: 92.871 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.319387
+mean loss: 0.319387
+accuracy: 91.357 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.288317
+mean loss: 0.288317
+accuracy: 93.143 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.498367
+eval accuracy: 85.535
+eval avg class acc: 81.790
+
+---------------------
+Time Spent for epoch 147:	40.306076
+===EPOCH 148===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.296131
+mean loss: 0.296131
+accuracy: 92.822 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.307025
+mean loss: 0.307025
+accuracy: 91.699 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.315274
+mean loss: 0.315274
+accuracy: 91.895 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.298912
+mean loss: 0.298912
+accuracy: 92.432 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.294044
+mean loss: 0.294044
+accuracy: 92.536 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.612838
+eval accuracy: 82.010
+eval avg class acc: 79.251
+
+---------------------
+Time Spent for epoch 148:	40.285591
+===EPOCH 149===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.260003
+mean loss: 0.260003
+accuracy: 93.993 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.300956
+mean loss: 0.300955
+accuracy: 92.334 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.297917
+mean loss: 0.297917
+accuracy: 91.553 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.308798
+mean loss: 0.308798
+accuracy: 92.236 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.321659
+mean loss: 0.321659
+accuracy: 92.285 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.492569
+eval accuracy: 85.697
+eval avg class acc: 81.248
+
+---------------------
+Time Spent for epoch 149:	40.335251
+===EPOCH 150===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.293473
+mean loss: 0.293473
+accuracy: 92.480 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.297459
+mean loss: 0.297459
+accuracy: 92.578 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.306867
+mean loss: 0.306867
+accuracy: 92.090 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.312228
+mean loss: 0.312228
+accuracy: 91.162 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.290798
+mean loss: 0.290798
+accuracy: 92.294 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.554410
+eval accuracy: 82.901
+eval avg class acc: 78.661
+
+---------------------
+Time Spent for epoch 150:	40.425830
+===EPOCH 151===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.292245
+mean loss: 0.292245
+accuracy: 93.164 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.274981
+mean loss: 0.274981
+accuracy: 93.507 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.296205
+mean loss: 0.296205
+accuracy: 92.139 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.306622
+mean loss: 0.306622
+accuracy: 92.188 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.299140
+mean loss: 0.299140
+accuracy: 92.529 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.541663
+eval accuracy: 84.117
+eval avg class acc: 80.747
+
+---------------------
+Time Spent for epoch 151:	40.354619
+===EPOCH 152===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.299920
+mean loss: 0.299920
+accuracy: 91.602 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.294550
+mean loss: 0.294550
+accuracy: 92.822 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.300793
+mean loss: 0.300793
+accuracy: 93.066 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.317900
+mean loss: 0.317900
+accuracy: 92.188 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.298182
+mean loss: 0.298182
+accuracy: 91.930 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.533660
+eval accuracy: 84.481
+eval avg class acc: 80.540
+
+---------------------
+Time Spent for epoch 152:	40.221139
+===EPOCH 153===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.309647
+mean loss: 0.309647
+accuracy: 91.992 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.297501
+mean loss: 0.297501
+accuracy: 92.529 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.312871
+mean loss: 0.312871
+accuracy: 91.260 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.296759
+mean loss: 0.296759
+accuracy: 92.285 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.295020
+mean loss: 0.295020
+accuracy: 93.204 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.667646
+eval accuracy: 80.389
+eval avg class acc: 77.781
+
+---------------------
+Time Spent for epoch 153:	40.217447
+===EPOCH 154===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.298457
+mean loss: 0.298457
+accuracy: 91.504 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.281130
+mean loss: 0.281130
+accuracy: 93.265 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.306032
+mean loss: 0.306032
+accuracy: 92.285 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.307453
+mean loss: 0.307453
+accuracy: 91.895 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.291715
+mean loss: 0.291715
+accuracy: 93.164 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.684351
+eval accuracy: 79.660
+eval avg class acc: 75.713
+
+---------------------
+Time Spent for epoch 154:	40.342002
+===EPOCH 155===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.292891
+mean loss: 0.292891
+accuracy: 92.354 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.290206
+mean loss: 0.290206
+accuracy: 92.529 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.306876
+mean loss: 0.306876
+accuracy: 92.969 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.311416
+mean loss: 0.311416
+accuracy: 92.041 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.300309
+mean loss: 0.300309
+accuracy: 92.627 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.639354
+eval accuracy: 80.389
+eval avg class acc: 76.430
+
+---------------------
+Time Spent for epoch 155:	40.308580
+===EPOCH 156===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.296869
+mean loss: 0.296869
+accuracy: 91.992 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.289796
+mean loss: 0.289796
+accuracy: 93.325 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.297905
+mean loss: 0.297905
+accuracy: 93.115 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.311177
+mean loss: 0.311177
+accuracy: 91.943 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.292736
+mean loss: 0.292736
+accuracy: 92.383 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.544289
+eval accuracy: 84.643
+eval avg class acc: 81.533
+
+---------------------
+Time Spent for epoch 156:	40.255268
+===EPOCH 157===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.285402
+mean loss: 0.285402
+accuracy: 92.900 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.302648
+mean loss: 0.302648
+accuracy: 92.041 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.301896
+mean loss: 0.301896
+accuracy: 92.383 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.302551
+mean loss: 0.302551
+accuracy: 92.529 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.302130
+mean loss: 0.302129
+accuracy: 91.846 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.582066
+eval accuracy: 83.833
+eval avg class acc: 79.517
+
+---------------------
+Time Spent for epoch 157:	40.336665
+===EPOCH 158===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.301615
+mean loss: 0.301615
+accuracy: 92.578 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.290228
+mean loss: 0.290228
+accuracy: 92.285 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.290753
+mean loss: 0.290753
+accuracy: 92.773 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.292977
+mean loss: 0.292977
+accuracy: 92.676 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.298571
+mean loss: 0.298571
+accuracy: 93.022 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.546333
+eval accuracy: 83.874
+eval avg class acc: 79.788
+
+---------------------
+Time Spent for epoch 158:	40.283153
+===EPOCH 159===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.287886
+mean loss: 0.287886
+accuracy: 92.773 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.295867
+mean loss: 0.295867
+accuracy: 92.725 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.297976
+mean loss: 0.297976
+accuracy: 91.992 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.287924
+mean loss: 0.287924
+accuracy: 92.779 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.305473
+mean loss: 0.305473
+accuracy: 91.846 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.585000
+eval accuracy: 83.185
+eval avg class acc: 80.069
+
+---------------------
+Time Spent for epoch 159:	40.335303
+===EPOCH 160===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.300205
+mean loss: 0.300205
+accuracy: 92.480 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.279155
+mean loss: 0.279155
+accuracy: 93.143 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.293562
+mean loss: 0.293562
+accuracy: 92.432 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.297565
+mean loss: 0.297565
+accuracy: 92.822 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.301455
+mean loss: 0.301455
+accuracy: 92.285 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.662777
+eval accuracy: 80.389
+eval avg class acc: 78.209
+
+---------------------
+Time Spent for epoch 160:	40.280220
+===EPOCH 161===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.294814
+mean loss: 0.294814
+accuracy: 92.969 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.287020
+mean loss: 0.287020
+accuracy: 92.476 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.305885
+mean loss: 0.305886
+accuracy: 91.553 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.300763
+mean loss: 0.300763
+accuracy: 92.725 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.306475
+mean loss: 0.306475
+accuracy: 92.188 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.600272
+eval accuracy: 82.861
+eval avg class acc: 78.685
+
+---------------------
+Time Spent for epoch 161:	40.393021
+===EPOCH 162===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.291125
+mean loss: 0.291126
+accuracy: 92.529 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.296035
+mean loss: 0.296035
+accuracy: 92.188 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.304932
+mean loss: 0.304932
+accuracy: 91.797 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.283827
+mean loss: 0.283827
+accuracy: 92.961 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.292185
+mean loss: 0.292186
+accuracy: 93.408 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.461334
+eval accuracy: 87.156
+eval avg class acc: 81.881
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (162) !
+
+Time Spent for epoch 162:	41.707299
+===EPOCH 163===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.293065
+mean loss: 0.293065
+accuracy: 92.969 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.287722
+mean loss: 0.287722
+accuracy: 92.627 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.275671
+mean loss: 0.275671
+accuracy: 93.568 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.290023
+mean loss: 0.290023
+accuracy: 93.115 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.276599
+mean loss: 0.276599
+accuracy: 92.773 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.516352
+eval accuracy: 85.454
+eval avg class acc: 81.756
+
+---------------------
+Time Spent for epoch 163:	40.324406
+===EPOCH 164===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.276275
+mean loss: 0.276275
+accuracy: 93.701 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.261153
+mean loss: 0.261153
+accuracy: 93.750 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.289484
+mean loss: 0.289484
+accuracy: 92.139 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.294574
+mean loss: 0.294574
+accuracy: 92.773 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.272860
+mean loss: 0.272860
+accuracy: 93.325 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.539845
+eval accuracy: 83.995
+eval avg class acc: 79.950
+
+---------------------
+Time Spent for epoch 164:	40.259509
+===EPOCH 165===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.281691
+mean loss: 0.281691
+accuracy: 93.408 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.288227
+mean loss: 0.288227
+accuracy: 92.529 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.281119
+mean loss: 0.281119
+accuracy: 92.969 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.287464
+mean loss: 0.287464
+accuracy: 93.506 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.274430
+mean loss: 0.274430
+accuracy: 92.900 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.620151
+eval accuracy: 82.050
+eval avg class acc: 78.747
+
+---------------------
+Time Spent for epoch 165:	40.350520
+===EPOCH 166===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.268862
+mean loss: 0.268862
+accuracy: 93.555 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.277791
+mean loss: 0.277791
+accuracy: 94.141 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.280216
+mean loss: 0.280216
+accuracy: 92.536 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.284210
+mean loss: 0.284210
+accuracy: 92.578 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.289229
+mean loss: 0.289229
+accuracy: 92.188 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.568777
+eval accuracy: 83.833
+eval avg class acc: 79.826
+
+---------------------
+Time Spent for epoch 166:	40.383332
+===EPOCH 167===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.272669
+mean loss: 0.272669
+accuracy: 93.066 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.279822
+mean loss: 0.279822
+accuracy: 93.457 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.283486
+mean loss: 0.283486
+accuracy: 93.359 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.282200
+mean loss: 0.282200
+accuracy: 93.083 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.278587
+mean loss: 0.278587
+accuracy: 93.066 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.563975
+eval accuracy: 83.671
+eval avg class acc: 80.431
+
+---------------------
+Time Spent for epoch 167:	40.327512
+===EPOCH 168===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.281331
+mean loss: 0.281331
+accuracy: 93.506 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.255931
+mean loss: 0.255931
+accuracy: 94.175 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.277555
+mean loss: 0.277555
+accuracy: 92.920 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.291036
+mean loss: 0.291035
+accuracy: 91.895 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.282997
+mean loss: 0.282997
+accuracy: 92.822 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.519459
+eval accuracy: 84.968
+eval avg class acc: 80.522
+
+---------------------
+Time Spent for epoch 168:	40.449830
+===EPOCH 169===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.274708
+mean loss: 0.274708
+accuracy: 93.083 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.282606
+mean loss: 0.282606
+accuracy: 92.188 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.277527
+mean loss: 0.277527
+accuracy: 92.920 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.277016
+mean loss: 0.277016
+accuracy: 93.506 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.283203
+mean loss: 0.283203
+accuracy: 93.066 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.513510
+eval accuracy: 85.211
+eval avg class acc: 81.572
+
+---------------------
+Time Spent for epoch 169:	40.325491
+===EPOCH 170===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.284915
+mean loss: 0.284915
+accuracy: 92.334 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.262131
+mean loss: 0.262131
+accuracy: 93.871 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.280423
+mean loss: 0.280423
+accuracy: 92.529 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.279498
+mean loss: 0.279498
+accuracy: 93.652 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.283507
+mean loss: 0.283507
+accuracy: 93.018 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.454437
+eval accuracy: 86.791
+eval avg class acc: 83.224
+
+---------------------
+Time Spent for epoch 170:	40.337647
+===EPOCH 171===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.274134
+mean loss: 0.274134
+accuracy: 93.164 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.267935
+mean loss: 0.267935
+accuracy: 93.311 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.290426
+mean loss: 0.290426
+accuracy: 92.725 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.282017
+mean loss: 0.282017
+accuracy: 93.066 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.270945
+mean loss: 0.270945
+accuracy: 93.689 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.483133
+eval accuracy: 86.467
+eval avg class acc: 82.874
+
+---------------------
+Time Spent for epoch 171:	40.325612
+===EPOCH 172===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.276010
+mean loss: 0.276010
+accuracy: 93.115 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.281033
+mean loss: 0.281033
+accuracy: 93.213 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.281082
+mean loss: 0.281082
+accuracy: 92.822 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.282128
+mean loss: 0.282128
+accuracy: 93.311 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.272317
+mean loss: 0.272317
+accuracy: 93.325 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.509065
+eval accuracy: 84.724
+eval avg class acc: 81.101
+
+---------------------
+Time Spent for epoch 172:	40.368428
+===EPOCH 173===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.275294
+mean loss: 0.275294
+accuracy: 93.750 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.263386
+mean loss: 0.263386
+accuracy: 93.871 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.289587
+mean loss: 0.289587
+accuracy: 91.992 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.284393
+mean loss: 0.284393
+accuracy: 92.773 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.291535
+mean loss: 0.291535
+accuracy: 92.969 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.521023
+eval accuracy: 83.833
+eval avg class acc: 79.059
+
+---------------------
+Time Spent for epoch 173:	40.338436
+===EPOCH 174===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.268349
+mean loss: 0.268349
+accuracy: 93.262 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.281833
+mean loss: 0.281833
+accuracy: 93.311 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.265289
+mean loss: 0.265289
+accuracy: 93.652 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.276053
+mean loss: 0.276052
+accuracy: 93.164 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.264719
+mean loss: 0.264719
+accuracy: 93.689 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.589373
+eval accuracy: 82.455
+eval avg class acc: 78.202
+
+---------------------
+Time Spent for epoch 174:	40.332136
+===EPOCH 175===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.271132
+mean loss: 0.271132
+accuracy: 93.213 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.276825
+mean loss: 0.276825
+accuracy: 93.408 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.283057
+mean loss: 0.283057
+accuracy: 92.285 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.270485
+mean loss: 0.270485
+accuracy: 93.204 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.274849
+mean loss: 0.274849
+accuracy: 93.359 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.542816
+eval accuracy: 84.157
+eval avg class acc: 81.862
+
+---------------------
+Time Spent for epoch 175:	40.336986
+===EPOCH 176===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.273739
+mean loss: 0.273739
+accuracy: 92.871 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.256478
+mean loss: 0.256478
+accuracy: 93.993 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.280415
+mean loss: 0.280415
+accuracy: 92.920 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.274602
+mean loss: 0.274603
+accuracy: 93.408 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.269809
+mean loss: 0.269809
+accuracy: 92.822 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.568624
+eval accuracy: 82.942
+eval avg class acc: 80.531
+
+---------------------
+Time Spent for epoch 176:	40.347263
+===EPOCH 177===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.247044
+mean loss: 0.247044
+accuracy: 94.629 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.277281
+mean loss: 0.277281
+accuracy: 92.432 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.278535
+mean loss: 0.278535
+accuracy: 93.164 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.259616
+mean loss: 0.259616
+accuracy: 93.568 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.278632
+mean loss: 0.278632
+accuracy: 93.066 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.571610
+eval accuracy: 83.387
+eval avg class acc: 80.171
+
+---------------------
+Time Spent for epoch 177:	40.363832
+===EPOCH 178===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.273370
+mean loss: 0.273370
+accuracy: 92.627 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.270470
+mean loss: 0.270470
+accuracy: 93.799 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.272317
+mean loss: 0.272317
+accuracy: 92.969 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.273017
+mean loss: 0.273017
+accuracy: 93.204 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.281082
+mean loss: 0.281082
+accuracy: 93.018 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.555613
+eval accuracy: 83.955
+eval avg class acc: 78.378
+
+---------------------
+Time Spent for epoch 178:	40.295507
+===EPOCH 179===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.248630
+mean loss: 0.248630
+accuracy: 93.629 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.266664
+mean loss: 0.266664
+accuracy: 92.822 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.266410
+mean loss: 0.266410
+accuracy: 93.555 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.282504
+mean loss: 0.282504
+accuracy: 92.676 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.287676
+mean loss: 0.287676
+accuracy: 92.041 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.647648
+eval accuracy: 81.361
+eval avg class acc: 78.140
+
+---------------------
+Time Spent for epoch 179:	40.387782
+===EPOCH 180===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.270277
+mean loss: 0.270277
+accuracy: 94.092 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.265351
+mean loss: 0.265351
+accuracy: 93.143 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.270855
+mean loss: 0.270855
+accuracy: 93.066 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.275979
+mean loss: 0.275979
+accuracy: 93.115 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.273829
+mean loss: 0.273829
+accuracy: 93.115 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.485167
+eval accuracy: 85.940
+eval avg class acc: 82.326
+
+---------------------
+Time Spent for epoch 180:	40.395727
+===EPOCH 181===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.269499
+mean loss: 0.269499
+accuracy: 93.506 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.263784
+mean loss: 0.263784
+accuracy: 93.689 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.270890
+mean loss: 0.270890
+accuracy: 92.920 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.276526
+mean loss: 0.276526
+accuracy: 93.555 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.273215
+mean loss: 0.273215
+accuracy: 92.676 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.588653
+eval accuracy: 84.036
+eval avg class acc: 81.858
+
+---------------------
+Time Spent for epoch 181:	40.302025
+===EPOCH 182===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.255748
+mean loss: 0.255748
+accuracy: 93.896 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.280039
+mean loss: 0.280039
+accuracy: 93.213 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.273691
+mean loss: 0.273691
+accuracy: 92.920 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.284331
+mean loss: 0.284331
+accuracy: 93.018 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.265040
+mean loss: 0.265040
+accuracy: 93.568 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.561690
+eval accuracy: 82.415
+eval avg class acc: 78.188
+
+---------------------
+Time Spent for epoch 182:	40.346856
+===EPOCH 183===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.269828
+mean loss: 0.269828
+accuracy: 92.676 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.270811
+mean loss: 0.270811
+accuracy: 92.822 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.262469
+mean loss: 0.262469
+accuracy: 94.053 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.270516
+mean loss: 0.270516
+accuracy: 93.311 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.272421
+mean loss: 0.272421
+accuracy: 93.408 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.547319
+eval accuracy: 83.955
+eval avg class acc: 81.202
+
+---------------------
+Time Spent for epoch 183:	40.326756
+===EPOCH 184===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.247655
+mean loss: 0.247655
+accuracy: 94.053 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.270139
+mean loss: 0.270139
+accuracy: 93.066 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.262727
+mean loss: 0.262727
+accuracy: 93.799 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.267282
+mean loss: 0.267282
+accuracy: 93.457 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.260262
+mean loss: 0.260262
+accuracy: 93.848 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.436669
+eval accuracy: 86.507
+eval avg class acc: 81.577
+
+---------------------
+Time Spent for epoch 184:	40.226991
+===EPOCH 185===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.259951
+mean loss: 0.259951
+accuracy: 93.799 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.256227
+mean loss: 0.256227
+accuracy: 94.296 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.263674
+mean loss: 0.263674
+accuracy: 94.336 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.260397
+mean loss: 0.260397
+accuracy: 93.213 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.265332
+mean loss: 0.265332
+accuracy: 92.773 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.571788
+eval accuracy: 82.699
+eval avg class acc: 78.690
+
+---------------------
+Time Spent for epoch 185:	40.329902
+===EPOCH 186===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.252116
+mean loss: 0.252116
+accuracy: 94.336 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.260455
+mean loss: 0.260455
+accuracy: 93.848 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.266222
+mean loss: 0.266222
+accuracy: 92.920 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.273058
+mean loss: 0.273058
+accuracy: 93.115 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.249352
+mean loss: 0.249352
+accuracy: 94.175 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.469551
+eval accuracy: 86.345
+eval avg class acc: 82.312
+
+---------------------
+Time Spent for epoch 186:	40.301618
+===EPOCH 187===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.251906
+mean loss: 0.251907
+accuracy: 93.213 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.266391
+mean loss: 0.266390
+accuracy: 93.652 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.257186
+mean loss: 0.257186
+accuracy: 93.799 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.244111
+mean loss: 0.244111
+accuracy: 94.782 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.258468
+mean loss: 0.258468
+accuracy: 93.896 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.490581
+eval accuracy: 85.656
+eval avg class acc: 81.272
+
+---------------------
+Time Spent for epoch 187:	40.399877
+===EPOCH 188===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.258034
+mean loss: 0.258034
+accuracy: 93.408 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.257397
+mean loss: 0.257397
+accuracy: 93.750 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.273072
+mean loss: 0.273072
+accuracy: 92.871 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.268769
+mean loss: 0.268769
+accuracy: 93.555 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.253304
+mean loss: 0.253304
+accuracy: 93.750 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.419075
+eval accuracy: 87.601
+eval avg class acc: 83.248
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (188) !
+
+Time Spent for epoch 188:	41.946842
+===EPOCH 189===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.245587
+mean loss: 0.245587
+accuracy: 94.287 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.258018
+mean loss: 0.258018
+accuracy: 93.604 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.258750
+mean loss: 0.258750
+accuracy: 93.555 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.262259
+mean loss: 0.262259
+accuracy: 92.969 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.254551
+mean loss: 0.254551
+accuracy: 93.568 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.462480
+eval accuracy: 86.467
+eval avg class acc: 82.010
+
+---------------------
+Time Spent for epoch 189:	40.428628
+===EPOCH 190===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.254884
+mean loss: 0.254884
+accuracy: 94.141 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.255997
+mean loss: 0.255997
+accuracy: 93.701 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.266149
+mean loss: 0.266149
+accuracy: 91.992 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.270521
+mean loss: 0.270521
+accuracy: 93.164 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.247889
+mean loss: 0.247889
+accuracy: 94.296 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.464129
+eval accuracy: 85.900
+eval avg class acc: 80.547
+
+---------------------
+Time Spent for epoch 190:	40.332617
+===EPOCH 191===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.258201
+mean loss: 0.258201
+accuracy: 92.969 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.256341
+mean loss: 0.256341
+accuracy: 93.506 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.253632
+mean loss: 0.253632
+accuracy: 94.053 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.267047
+mean loss: 0.267047
+accuracy: 93.311 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.272071
+mean loss: 0.272071
+accuracy: 93.652 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.470165
+eval accuracy: 85.575
+eval avg class acc: 81.872
+
+---------------------
+Time Spent for epoch 191:	40.313581
+===EPOCH 192===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.239978
+mean loss: 0.239978
+accuracy: 94.478 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.258498
+mean loss: 0.258498
+accuracy: 93.262 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.254741
+mean loss: 0.254741
+accuracy: 94.336 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.254864
+mean loss: 0.254864
+accuracy: 93.311 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.266638
+mean loss: 0.266638
+accuracy: 93.213 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.456954
+eval accuracy: 86.386
+eval avg class acc: 82.233
+
+---------------------
+Time Spent for epoch 192:	40.331769
+===EPOCH 193===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.249641
+mean loss: 0.249641
+accuracy: 93.945 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.254525
+mean loss: 0.254525
+accuracy: 94.114 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.254124
+mean loss: 0.254124
+accuracy: 93.750 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.255058
+mean loss: 0.255058
+accuracy: 94.287 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.250535
+mean loss: 0.250536
+accuracy: 94.629 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.482768
+eval accuracy: 86.143
+eval avg class acc: 82.598
+
+---------------------
+Time Spent for epoch 193:	40.327656
+===EPOCH 194===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.247499
+mean loss: 0.247499
+accuracy: 94.175 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.257320
+mean loss: 0.257320
+accuracy: 93.750 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.265538
+mean loss: 0.265538
+accuracy: 93.018 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.252987
+mean loss: 0.252987
+accuracy: 94.043 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.255742
+mean loss: 0.255742
+accuracy: 94.385 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.516957
+eval accuracy: 83.995
+eval avg class acc: 79.842
+
+---------------------
+Time Spent for epoch 194:	40.385594
+===EPOCH 195===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.251553
+mean loss: 0.251553
+accuracy: 93.604 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.263891
+mean loss: 0.263891
+accuracy: 93.204 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.262206
+mean loss: 0.262206
+accuracy: 93.506 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.256581
+mean loss: 0.256581
+accuracy: 93.750 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.265752
+mean loss: 0.265752
+accuracy: 93.604 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.516450
+eval accuracy: 84.603
+eval avg class acc: 81.948
+
+---------------------
+Time Spent for epoch 195:	40.245989
+===EPOCH 196===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.242313
+mean loss: 0.242313
+accuracy: 94.175 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.261675
+mean loss: 0.261675
+accuracy: 93.408 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.260975
+mean loss: 0.260975
+accuracy: 93.506 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.260086
+mean loss: 0.260086
+accuracy: 93.066 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.255647
+mean loss: 0.255647
+accuracy: 94.043 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.478898
+eval accuracy: 86.143
+eval avg class acc: 81.181
+
+---------------------
+Time Spent for epoch 196:	40.246643
+===EPOCH 197===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.235833
+mean loss: 0.235833
+accuracy: 94.873 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.257683
+mean loss: 0.257683
+accuracy: 93.629 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.252400
+mean loss: 0.252400
+accuracy: 93.652 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.261324
+mean loss: 0.261324
+accuracy: 93.604 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.266074
+mean loss: 0.266074
+accuracy: 93.506 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.518816
+eval accuracy: 84.360
+eval avg class acc: 81.556
+
+---------------------
+Time Spent for epoch 197:	40.333711
+===EPOCH 198===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.257544
+mean loss: 0.257544
+accuracy: 93.359 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.253230
+mean loss: 0.253230
+accuracy: 93.701 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.257944
+mean loss: 0.257944
+accuracy: 93.311 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.247734
+mean loss: 0.247734
+accuracy: 94.296 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.262360
+mean loss: 0.262360
+accuracy: 93.701 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.521952
+eval accuracy: 84.400
+eval avg class acc: 79.101
+
+---------------------
+Time Spent for epoch 198:	40.308412
+===EPOCH 199===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.245713
+mean loss: 0.245713
+accuracy: 94.539 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.264550
+mean loss: 0.264550
+accuracy: 93.213 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.258585
+mean loss: 0.258585
+accuracy: 93.945 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.256969
+mean loss: 0.256969
+accuracy: 93.750 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.255209
+mean loss: 0.255209
+accuracy: 93.994 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.505349
+eval accuracy: 85.818
+eval avg class acc: 82.562
+
+---------------------
+Time Spent for epoch 199:	40.331275
+===EPOCH 200===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.248504
+mean loss: 0.248504
+accuracy: 94.580 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.248728
+mean loss: 0.248728
+accuracy: 94.417 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.250287
+mean loss: 0.250287
+accuracy: 94.580 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.261646
+mean loss: 0.261646
+accuracy: 92.871 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.259447
+mean loss: 0.259447
+accuracy: 93.652 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.512938
+eval accuracy: 84.684
+eval avg class acc: 80.635
+
+---------------------
+Time Spent for epoch 200:	40.214375
+===EPOCH 201===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.244373
+mean loss: 0.244373
+accuracy: 94.238 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.255108
+mean loss: 0.255108
+accuracy: 94.092 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.250045
+mean loss: 0.250045
+accuracy: 94.478 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.259300
+mean loss: 0.259300
+accuracy: 93.848 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.253201
+mean loss: 0.253201
+accuracy: 93.408 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.537466
+eval accuracy: 84.198
+eval avg class acc: 81.877
+
+---------------------
+Time Spent for epoch 201:	40.252654
+===EPOCH 202===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.241168
+mean loss: 0.241168
+accuracy: 94.873 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.252926
+mean loss: 0.252926
+accuracy: 93.701 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.249594
+mean loss: 0.249594
+accuracy: 93.164 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.258343
+mean loss: 0.258343
+accuracy: 93.799 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.250446
+mean loss: 0.250446
+accuracy: 93.750 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.509458
+eval accuracy: 85.413
+eval avg class acc: 81.558
+
+---------------------
+Time Spent for epoch 202:	40.354497
+===EPOCH 203===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.250783
+mean loss: 0.250783
+accuracy: 93.799 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.250381
+mean loss: 0.250381
+accuracy: 94.141 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.236109
+mean loss: 0.236109
+accuracy: 94.235 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.260375
+mean loss: 0.260375
+accuracy: 93.750 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.249734
+mean loss: 0.249734
+accuracy: 94.629 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.498453
+eval accuracy: 85.494
+eval avg class acc: 81.899
+
+---------------------
+Time Spent for epoch 203:	40.415195
+===EPOCH 204===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.241547
+mean loss: 0.241547
+accuracy: 94.385 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.234618
+mean loss: 0.234618
+accuracy: 94.539 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.245391
+mean loss: 0.245391
+accuracy: 93.848 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.254711
+mean loss: 0.254711
+accuracy: 93.018 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.242472
+mean loss: 0.242472
+accuracy: 94.434 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.448950
+eval accuracy: 86.831
+eval avg class acc: 82.549
+
+---------------------
+Time Spent for epoch 204:	40.342411
+===EPOCH 205===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.243523
+mean loss: 0.243523
+accuracy: 94.238 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.234213
+mean loss: 0.234213
+accuracy: 94.580 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.247863
+mean loss: 0.247863
+accuracy: 94.482 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.235864
+mean loss: 0.235864
+accuracy: 94.660 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.253164
+mean loss: 0.253164
+accuracy: 93.213 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.474174
+eval accuracy: 86.224
+eval avg class acc: 83.172
+
+---------------------
+Time Spent for epoch 205:	40.321358
+===EPOCH 206===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.254482
+mean loss: 0.254482
+accuracy: 93.994 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.236457
+mean loss: 0.236457
+accuracy: 94.580 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.252560
+mean loss: 0.252560
+accuracy: 93.848 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.236244
+mean loss: 0.236244
+accuracy: 94.600 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.259061
+mean loss: 0.259061
+accuracy: 93.262 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.471185
+eval accuracy: 86.994
+eval avg class acc: 82.492
+
+---------------------
+Time Spent for epoch 206:	40.308951
+===EPOCH 207===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.244815
+mean loss: 0.244815
+accuracy: 93.457 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.246818
+mean loss: 0.246818
+accuracy: 93.994 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.244322
+mean loss: 0.244322
+accuracy: 94.336 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.241077
+mean loss: 0.241078
+accuracy: 94.235 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.248790
+mean loss: 0.248790
+accuracy: 93.945 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.519473
+eval accuracy: 85.413
+eval avg class acc: 81.053
+
+---------------------
+Time Spent for epoch 207:	40.236905
+===EPOCH 208===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.240773
+mean loss: 0.240773
+accuracy: 93.652 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.228789
+mean loss: 0.228789
+accuracy: 95.328 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.238018
+mean loss: 0.238018
+accuracy: 94.287 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.243268
+mean loss: 0.243268
+accuracy: 94.238 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.248120
+mean loss: 0.248120
+accuracy: 93.994 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.486117
+eval accuracy: 85.292
+eval avg class acc: 81.947
+
+---------------------
+Time Spent for epoch 208:	40.402352
+===EPOCH 209===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.242349
+mean loss: 0.242349
+accuracy: 94.434 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.247624
+mean loss: 0.247624
+accuracy: 93.457 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.235074
+mean loss: 0.235074
+accuracy: 94.296 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.243796
+mean loss: 0.243796
+accuracy: 94.434 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.248350
+mean loss: 0.248350
+accuracy: 94.141 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.472888
+eval accuracy: 85.981
+eval avg class acc: 82.228
+
+---------------------
+Time Spent for epoch 209:	40.332862
+===EPOCH 210===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.247668
+mean loss: 0.247668
+accuracy: 94.141 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.230775
+mean loss: 0.230775
+accuracy: 94.903 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.238802
+mean loss: 0.238802
+accuracy: 94.141 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.242298
+mean loss: 0.242298
+accuracy: 93.555 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.245793
+mean loss: 0.245793
+accuracy: 94.482 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.454244
+eval accuracy: 86.669
+eval avg class acc: 83.470
+
+---------------------
+Time Spent for epoch 210:	40.318476
+===EPOCH 211===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.250846
+mean loss: 0.250846
+accuracy: 94.114 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.247379
+mean loss: 0.247379
+accuracy: 93.701 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.239847
+mean loss: 0.239847
+accuracy: 94.141 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.245117
+mean loss: 0.245117
+accuracy: 94.678 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.259202
+mean loss: 0.259202
+accuracy: 93.604 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.449617
+eval accuracy: 87.318
+eval avg class acc: 83.011
+
+---------------------
+Time Spent for epoch 211:	40.311738
+===EPOCH 212===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.241590
+mean loss: 0.241590
+accuracy: 93.750 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.246069
+mean loss: 0.246069
+accuracy: 93.213 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.245898
+mean loss: 0.245898
+accuracy: 94.238 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.250068
+mean loss: 0.250068
+accuracy: 94.336 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.247807
+mean loss: 0.247807
+accuracy: 93.750 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.478637
+eval accuracy: 85.616
+eval avg class acc: 81.283
+
+---------------------
+Time Spent for epoch 212:	40.299049
+===EPOCH 213===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.227032
+mean loss: 0.227032
+accuracy: 94.600 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.237536
+mean loss: 0.237536
+accuracy: 94.971 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.255716
+mean loss: 0.255716
+accuracy: 93.213 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.241326
+mean loss: 0.241326
+accuracy: 94.385 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.256698
+mean loss: 0.256698
+accuracy: 94.092 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.429500
+eval accuracy: 87.763
+eval avg class acc: 83.548
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (213) !
+
+Time Spent for epoch 213:	41.882531
+===EPOCH 214===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.244091
+mean loss: 0.244091
+accuracy: 93.994 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.251557
+mean loss: 0.251557
+accuracy: 93.994 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.245371
+mean loss: 0.245371
+accuracy: 93.848 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.231408
+mean loss: 0.231408
+accuracy: 94.842 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.244451
+mean loss: 0.244451
+accuracy: 93.750 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.426247
+eval accuracy: 88.209
+eval avg class acc: 83.914
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (214) !
+
+Time Spent for epoch 214:	42.153202
+===EPOCH 215===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.253660
+mean loss: 0.253660
+accuracy: 94.189 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.228668
+mean loss: 0.228668
+accuracy: 94.539 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.241572
+mean loss: 0.241572
+accuracy: 93.994 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.245867
+mean loss: 0.245867
+accuracy: 94.336 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.241098
+mean loss: 0.241098
+accuracy: 94.141 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.448670
+eval accuracy: 86.669
+eval avg class acc: 82.567
+
+---------------------
+Time Spent for epoch 215:	40.448742
+===EPOCH 216===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.232579
+mean loss: 0.232579
+accuracy: 94.580 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.236647
+mean loss: 0.236647
+accuracy: 94.357 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.250760
+mean loss: 0.250760
+accuracy: 93.750 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.246815
+mean loss: 0.246815
+accuracy: 93.506 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.255965
+mean loss: 0.255965
+accuracy: 93.994 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.437751
+eval accuracy: 87.277
+eval avg class acc: 83.569
+
+---------------------
+Time Spent for epoch 216:	40.412022
+===EPOCH 217===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.229400
+mean loss: 0.229400
+accuracy: 94.434 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.239711
+mean loss: 0.239711
+accuracy: 94.336 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.241835
+mean loss: 0.241835
+accuracy: 93.652 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.235379
+mean loss: 0.235379
+accuracy: 94.478 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.242107
+mean loss: 0.242107
+accuracy: 94.238 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.437818
+eval accuracy: 87.601
+eval avg class acc: 83.242
+
+---------------------
+Time Spent for epoch 217:	40.232632
+===EPOCH 218===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.244897
+mean loss: 0.244897
+accuracy: 93.799 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.226749
+mean loss: 0.226749
+accuracy: 95.117 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.244848
+mean loss: 0.244848
+accuracy: 93.994 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.226993
+mean loss: 0.226993
+accuracy: 94.478 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.253535
+mean loss: 0.253535
+accuracy: 94.189 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.453553
+eval accuracy: 86.548
+eval avg class acc: 83.190
+
+---------------------
+Time Spent for epoch 218:	40.285745
+===EPOCH 219===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.224200
+mean loss: 0.224200
+accuracy: 94.842 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.241368
+mean loss: 0.241368
+accuracy: 94.385 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.240655
+mean loss: 0.240655
+accuracy: 94.238 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.247321
+mean loss: 0.247321
+accuracy: 93.604 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.246521
+mean loss: 0.246521
+accuracy: 94.482 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.436242
+eval accuracy: 87.318
+eval avg class acc: 83.285
+
+---------------------
+Time Spent for epoch 219:	40.278193
+===EPOCH 220===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.233924
+mean loss: 0.233924
+accuracy: 95.264 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.239821
+mean loss: 0.239821
+accuracy: 93.896 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.237053
+mean loss: 0.237053
+accuracy: 94.539 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.237250
+mean loss: 0.237250
+accuracy: 94.287 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.247188
+mean loss: 0.247188
+accuracy: 94.189 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.468824
+eval accuracy: 86.426
+eval avg class acc: 82.879
+
+---------------------
+Time Spent for epoch 220:	40.351897
+===EPOCH 221===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.231901
+mean loss: 0.231901
+accuracy: 94.336 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.231432
+mean loss: 0.231432
+accuracy: 94.482 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.238360
+mean loss: 0.238360
+accuracy: 94.434 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.247026
+mean loss: 0.247026
+accuracy: 93.848 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.234141
+mean loss: 0.234141
+accuracy: 94.417 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.493776
+eval accuracy: 85.413
+eval avg class acc: 81.867
+
+---------------------
+Time Spent for epoch 221:	40.353739
+===EPOCH 222===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.236597
+mean loss: 0.236597
+accuracy: 94.434 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.235119
+mean loss: 0.235119
+accuracy: 94.482 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.249215
+mean loss: 0.249215
+accuracy: 93.506 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.230216
+mean loss: 0.230216
+accuracy: 94.721 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.238280
+mean loss: 0.238280
+accuracy: 94.434 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.446331
+eval accuracy: 87.034
+eval avg class acc: 81.765
+
+---------------------
+Time Spent for epoch 222:	40.394882
+===EPOCH 223===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.236292
+mean loss: 0.236292
+accuracy: 93.506 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.246445
+mean loss: 0.246445
+accuracy: 94.092 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.243338
+mean loss: 0.243338
+accuracy: 93.701 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.241101
+mean loss: 0.241101
+accuracy: 94.678 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.234895
+mean loss: 0.234895
+accuracy: 94.175 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.434554
+eval accuracy: 87.439
+eval avg class acc: 83.648
+
+---------------------
+Time Spent for epoch 223:	40.284576
+===EPOCH 224===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.234177
+mean loss: 0.234177
+accuracy: 94.580 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.243589
+mean loss: 0.243589
+accuracy: 94.385 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.228350
+mean loss: 0.228350
+accuracy: 94.357 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.237093
+mean loss: 0.237093
+accuracy: 94.385 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.236636
+mean loss: 0.236636
+accuracy: 93.701 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.446253
+eval accuracy: 86.264
+eval avg class acc: 82.976
+
+---------------------
+Time Spent for epoch 224:	40.384165
+===EPOCH 225===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.229769
+mean loss: 0.229769
+accuracy: 94.727 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.225328
+mean loss: 0.225328
+accuracy: 94.842 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.233315
+mean loss: 0.233315
+accuracy: 94.336 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.243028
+mean loss: 0.243028
+accuracy: 94.141 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.244537
+mean loss: 0.244537
+accuracy: 93.750 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.407996
+eval accuracy: 88.574
+eval avg class acc: 84.014
+
+---------------------
+
+BEST ACCURACY MODEL SAVED (225) !
+
+Time Spent for epoch 225:	43.380845
+===EPOCH 226===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.221745
+mean loss: 0.221745
+accuracy: 94.842 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.220308
+mean loss: 0.220308
+accuracy: 94.922 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.235064
+mean loss: 0.235064
+accuracy: 93.945 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.245441
+mean loss: 0.245441
+accuracy: 94.434 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.238722
+mean loss: 0.238723
+accuracy: 94.482 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.428490
+eval accuracy: 87.723
+eval avg class acc: 83.628
+
+---------------------
+Time Spent for epoch 226:	40.470508
+===EPOCH 227===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.234374
+mean loss: 0.234374
+accuracy: 94.287 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.230702
+mean loss: 0.230702
+accuracy: 94.842 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.238488
+mean loss: 0.238488
+accuracy: 93.555 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.241105
+mean loss: 0.241105
+accuracy: 94.385 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.239111
+mean loss: 0.239111
+accuracy: 94.287 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.417969
+eval accuracy: 87.561
+eval avg class acc: 83.387
+
+---------------------
+Time Spent for epoch 227:	40.387667
+===EPOCH 228===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.234273
+mean loss: 0.234273
+accuracy: 94.189 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.235424
+mean loss: 0.235424
+accuracy: 94.678 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.237157
+mean loss: 0.237157
+accuracy: 93.993 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.240964
+mean loss: 0.240964
+accuracy: 94.336 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.246587
+mean loss: 0.246587
+accuracy: 94.141 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.425904
+eval accuracy: 87.601
+eval avg class acc: 83.290
+
+---------------------
+Time Spent for epoch 228:	40.359580
+===EPOCH 229===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.225605
+mean loss: 0.225605
+accuracy: 95.020 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.237984
+mean loss: 0.237984
+accuracy: 93.896 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.242221
+mean loss: 0.242221
+accuracy: 93.629 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.236185
+mean loss: 0.236185
+accuracy: 94.531 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.240298
+mean loss: 0.240298
+accuracy: 94.287 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.455404
+eval accuracy: 86.305
+eval avg class acc: 83.058
+
+---------------------
+Time Spent for epoch 229:	40.257358
+===EPOCH 230===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.226192
+mean loss: 0.226192
+accuracy: 95.312 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.232772
+mean loss: 0.232772
+accuracy: 94.873 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.231078
+mean loss: 0.231078
+accuracy: 93.945 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.239748
+mean loss: 0.239748
+accuracy: 94.482 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.223773
+mean loss: 0.223773
+accuracy: 94.721 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.462403
+eval accuracy: 87.034
+eval avg class acc: 83.162
+
+---------------------
+Time Spent for epoch 230:	40.385087
+===EPOCH 231===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.237622
+mean loss: 0.237622
+accuracy: 94.727 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.228723
+mean loss: 0.228723
+accuracy: 94.678 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.231050
+mean loss: 0.231050
+accuracy: 94.629 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.233612
+mean loss: 0.233612
+accuracy: 94.235 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.233957
+mean loss: 0.233957
+accuracy: 94.189 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.489283
+eval accuracy: 85.292
+eval avg class acc: 82.353
+
+---------------------
+Time Spent for epoch 231:	40.416829
+===EPOCH 232===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.213143
+mean loss: 0.213143
+accuracy: 94.964 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.219077
+mean loss: 0.219077
+accuracy: 94.482 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.229241
+mean loss: 0.229241
+accuracy: 94.971 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.238156
+mean loss: 0.238156
+accuracy: 94.727 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.229660
+mean loss: 0.229660
+accuracy: 94.824 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.463605
+eval accuracy: 86.183
+eval avg class acc: 82.131
+
+---------------------
+Time Spent for epoch 232:	40.285866
+===EPOCH 233===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.227602
+mean loss: 0.227602
+accuracy: 94.580 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.226302
+mean loss: 0.226302
+accuracy: 94.580 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.234360
+mean loss: 0.234360
+accuracy: 93.799 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.224393
+mean loss: 0.224393
+accuracy: 94.782 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.236815
+mean loss: 0.236815
+accuracy: 94.238 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.501803
+eval accuracy: 84.846
+eval avg class acc: 80.920
+
+---------------------
+Time Spent for epoch 233:	40.349826
+===EPOCH 234===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.234603
+mean loss: 0.234603
+accuracy: 94.629 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.227604
+mean loss: 0.227604
+accuracy: 94.238 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.230199
+mean loss: 0.230199
+accuracy: 94.580 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.232446
+mean loss: 0.232446
+accuracy: 94.678 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.227848
+mean loss: 0.227848
+accuracy: 94.357 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.476329
+eval accuracy: 85.818
+eval avg class acc: 81.295
+
+---------------------
+Time Spent for epoch 234:	40.329384
+===EPOCH 235===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.235816
+mean loss: 0.235816
+accuracy: 94.385 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.231386
+mean loss: 0.231386
+accuracy: 94.842 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.234963
+mean loss: 0.234963
+accuracy: 94.531 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.239551
+mean loss: 0.239551
+accuracy: 93.164 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.241361
+mean loss: 0.241361
+accuracy: 93.994 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.497382
+eval accuracy: 84.765
+eval avg class acc: 80.885
+
+---------------------
+Time Spent for epoch 235:	40.345297
+===EPOCH 236===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.223016
+mean loss: 0.223016
+accuracy: 95.020 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.236561
+mean loss: 0.236561
+accuracy: 93.799 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.225453
+mean loss: 0.225453
+accuracy: 94.357 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.232840
+mean loss: 0.232840
+accuracy: 94.482 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.238370
+mean loss: 0.238370
+accuracy: 94.434 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.486535
+eval accuracy: 85.332
+eval avg class acc: 81.188
+
+---------------------
+Time Spent for epoch 236:	40.338595
+===EPOCH 237===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.221725
+mean loss: 0.221725
+accuracy: 94.903 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.227998
+mean loss: 0.227998
+accuracy: 94.629 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.227295
+mean loss: 0.227295
+accuracy: 94.629 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.226810
+mean loss: 0.226810
+accuracy: 93.994 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.233452
+mean loss: 0.233452
+accuracy: 94.873 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.482142
+eval accuracy: 85.778
+eval avg class acc: 81.349
+
+---------------------
+Time Spent for epoch 237:	40.272897
+===EPOCH 238===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.227500
+mean loss: 0.227500
+accuracy: 95.020 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.229929
+mean loss: 0.229929
+accuracy: 94.775 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.220066
+mean loss: 0.220066
+accuracy: 95.024 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.230381
+mean loss: 0.230381
+accuracy: 93.799 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.228406
+mean loss: 0.228406
+accuracy: 94.922 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.521213
+eval accuracy: 85.008
+eval avg class acc: 81.615
+
+---------------------
+Time Spent for epoch 238:	40.281246
+===EPOCH 239===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.228055
+mean loss: 0.228055
+accuracy: 94.043 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.230610
+mean loss: 0.230610
+accuracy: 95.215 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.226525
+mean loss: 0.226525
+accuracy: 94.531 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.219100
+mean loss: 0.219100
+accuracy: 95.206 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.233170
+mean loss: 0.233170
+accuracy: 94.678 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.489036
+eval accuracy: 85.494
+eval avg class acc: 81.020
+
+---------------------
+Time Spent for epoch 239:	40.383554
+===EPOCH 240===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.216333
+mean loss: 0.216333
+accuracy: 94.903 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.223152
+mean loss: 0.223152
+accuracy: 94.873 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.226900
+mean loss: 0.226900
+accuracy: 94.287 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.224137
+mean loss: 0.224137
+accuracy: 94.922 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.233765
+mean loss: 0.233765
+accuracy: 94.580 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.495350
+eval accuracy: 85.130
+eval avg class acc: 81.422
+
+---------------------
+Time Spent for epoch 240:	40.508977
+===EPOCH 241===
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.226311
+mean loss: 0.226311
+accuracy: 94.580 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.235046
+mean loss: 0.235046
+accuracy: 94.531 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.226334
+mean loss: 0.226334
+accuracy: 94.600 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.236886
+mean loss: 0.236886
+accuracy: 93.799 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.231025
+mean loss: 0.231025
+accuracy: 94.775 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.505466
+eval accuracy: 84.522
+eval avg class acc: 80.837
+
+---------------------
+Time Spent for epoch 241:	40.336708
+===EPOCH 242===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.215168
+mean loss: 0.215168
+accuracy: 95.206 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.229028
+mean loss: 0.229028
+accuracy: 94.727 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.225290
+mean loss: 0.225290
+accuracy: 94.678 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.244507
+mean loss: 0.244507
+accuracy: 94.092 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.241050
+mean loss: 0.241050
+accuracy: 93.457 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.497399
+eval accuracy: 85.494
+eval avg class acc: 82.540
+
+---------------------
+Time Spent for epoch 242:	40.346275
+===EPOCH 243===
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.219297
+mean loss: 0.219297
+accuracy: 95.752 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.216992
+mean loss: 0.216992
+accuracy: 94.721 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.222885
+mean loss: 0.222885
+accuracy: 95.508 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.231151
+mean loss: 0.231151
+accuracy: 94.580 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.228182
+mean loss: 0.228182
+accuracy: 94.092 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.475446
+eval accuracy: 85.292
+eval avg class acc: 81.577
+
+---------------------
+Time Spent for epoch 243:	40.364995
+===EPOCH 244===
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.230320
+mean loss: 0.230320
+accuracy: 94.434 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.240578
+mean loss: 0.240578
+accuracy: 94.531 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.219507
+mean loss: 0.219507
+accuracy: 94.385 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.220521
+mean loss: 0.220521
+accuracy: 95.267 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.232397
+mean loss: 0.232397
+accuracy: 94.531 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.440145
+eval accuracy: 87.358
+eval avg class acc: 82.577
+
+---------------------
+Time Spent for epoch 244:	40.265624
+===EPOCH 245===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.218116
+mean loss: 0.218116
+accuracy: 95.085 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.218878
+mean loss: 0.218878
+accuracy: 94.873 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.224815
+mean loss: 0.224815
+accuracy: 94.482 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.234975
+mean loss: 0.234975
+accuracy: 94.385 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.222089
+mean loss: 0.222089
+accuracy: 94.092 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.490096
+eval accuracy: 85.575
+eval avg class acc: 81.437
+
+---------------------
+Time Spent for epoch 245:	40.371852
+===EPOCH 246===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.219572
+mean loss: 0.219572
+accuracy: 94.434 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.221659
+mean loss: 0.221659
+accuracy: 94.842 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.226084
+mean loss: 0.226084
+accuracy: 94.824 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.229080
+mean loss: 0.229080
+accuracy: 94.971 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.239507
+mean loss: 0.239507
+accuracy: 94.141 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.474769
+eval accuracy: 86.143
+eval avg class acc: 82.285
+
+---------------------
+Time Spent for epoch 246:	40.365262
+===EPOCH 247===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.209116
+mean loss: 0.209116
+accuracy: 95.631 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.217301
+mean loss: 0.217301
+accuracy: 95.068 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.225958
+mean loss: 0.225958
+accuracy: 94.531 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.219585
+mean loss: 0.219585
+accuracy: 94.678 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.217561
+mean loss: 0.217561
+accuracy: 94.873 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.469925
+eval accuracy: 85.737
+eval avg class acc: 81.701
+
+---------------------
+Time Spent for epoch 247:	40.309035
+===EPOCH 248===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.215838
+mean loss: 0.215838
+accuracy: 94.721 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.219438
+mean loss: 0.219438
+accuracy: 95.068 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.231987
+mean loss: 0.231987
+accuracy: 94.482 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.224617
+mean loss: 0.224617
+accuracy: 94.336 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.226276
+mean loss: 0.226276
+accuracy: 95.068 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.447746
+eval accuracy: 86.710
+eval avg class acc: 83.020
+
+---------------------
+Time Spent for epoch 248:	40.329062
+===EPOCH 249===
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.216253
+mean loss: 0.216253
+accuracy: 94.842 %
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.223936
+mean loss: 0.223936
+accuracy: 94.092 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.224524
+mean loss: 0.224524
+accuracy: 94.873 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.227721
+mean loss: 0.227721
+accuracy: 94.531 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.216306
+mean loss: 0.216306
+accuracy: 95.264 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.486152
+eval accuracy: 85.251
+eval avg class acc: 81.401
+
+---------------------
+Time Spent for epoch 249:	40.379922
+===EPOCH 250===
+
+===FILE USED: N° 3===
+CrossEntropyLoss : 0.223521
+mean loss: 0.223521
+accuracy: 93.799 %
+
+===FILE USED: N° 4===
+CrossEntropyLoss : 0.225250
+mean loss: 0.225250
+accuracy: 94.478 %
+
+===FILE USED: N° 1===
+CrossEntropyLoss : 0.220309
+mean loss: 0.220309
+accuracy: 94.775 %
+
+===FILE USED: N° 2===
+CrossEntropyLoss : 0.227220
+mean loss: 0.227220
+accuracy: 94.629 %
+
+===FILE USED: N° 0===
+CrossEntropyLoss : 0.217153
+mean loss: 0.217153
+accuracy: 95.117 %
+
+===FILE TEST: 0 ===
+===FILE TEST: 1 ===
+eval mean loss: 0.468461
+eval accuracy: 86.629
+eval avg class acc: 82.909
+
+---------------------
+
+MODEL SAVED!
+
+Time Spent for epoch 250:	42.116657
+Maximum Training Accuracy Reached: 88.889	Epoch: 250
+Maximum Validation Accuracy Reached: 88.574	Epoch: 225
+Minimum Training Loss Reached: 0.217904	Epoch: 247
+Minimum Validation Loss Reached: 0.407996	Epoch: 225
+Time for training: 10186.180808 (2 h 49 min 46 sec)
