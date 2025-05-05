@@ -1,0 +1,7 @@
+# Ignore all files inside the specified directories
+__pycache__/
+# dumps_directory/
+log_prova/
+dump_prova/
+# logs_directory/
+# old_repository/
