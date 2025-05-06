@@ -42,6 +42,7 @@ JaxFlax-PointNet is an implementation of the PointNet architecture using JAX and
 1. **Training Phase:**
     ```bash
     cd src/
+    mkdir data
     sh training.sh
     ```
 
