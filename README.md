@@ -16,24 +16,26 @@ JaxFlax-PointNet is an implementation of the PointNet architecture using JAX and
     cd JaxFlax-PointNet/
     ```
 
-2. **Conda Environment Setup** :
+2. **Anaconda Installation** :
 
-    To run this first part of the project you need to create a **Conda Environment** with **python 3.12.5** following the instructions one can find on the [Anaconda Official Site](https://www.anaconda.com/).
+    To run this first part of the project you need to install **Anaconda** following the instructions one can find on the [Anaconda Official Site](https://www.anaconda.com/).
 
     Moreover, be sure to set ***conda-forge*** as main channel for Anaconda.
 
 
-3. **Install dependencies** :
+3. **COnda Environment Setup** :
 
     If you **DON'T HAVE** a **NVIDIA GPU**, please refer to **Part 3.1** to prepare a **CPU ONLY** environment (notice that this will heavily affect the total training time).
 
     3.1 **CPU Only Environment Installation (Not Recommended)** :
 
-        pip install -r cpu_only_requirements.txt
+        conda env create -f cpu_environment.yml
+        conda activate cpu_env
 
     3.2 **NVIDIA GPU Environment Installation (Recommended)**:
 
-        pip install -r gpu_requirements.txt
+        conda env create -f gpu_environment.yml
+        conda activate gpu_env
 
     
 
