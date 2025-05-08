@@ -22,7 +22,7 @@ You may find all specs inside the ***models.py*** file, but for semplicity here 
 
 1. **Clone the repository** :
     ```bash
-    git clone https://github.com/yourusername/JaxFlax-PointNet.git
+    git clone https://github.com/TheGlitch2701/JaxFlax-PointNet.git
     cd JaxFlax-PointNet/
     ```
 
@@ -100,30 +100,30 @@ _____________________________________________________________
 
 In particular, if one want to customize some settings, here we listed all parameters that can be changed:
 
-- ***log_dir*** : the directory where training files and figures are saved
+- `log_dir` : the directory where training files and figures are saved
 
-- ***model*** : the selected model to use (can be either **pointnet_basic** or **pointnet**)
+- `model` : the selected model to use (can be either **pointnet_basic** or **pointnet**)
 
-- ***num_point*** : the number of point to consider of each point cloud can be either one of the following: $$ \bold{n} \in [ \bold{256,512,1024,2048} ] $$
+- `num_point` : the number of point to consider of each point cloud can be either one of the following: $$ \bold{n} \in [ \bold{256,512,1024,2048} ] $$
 
-- ***max_epoch*** : maximum number of epoch before the training ends: $$ Default = \bold{250} $$
+- `max_epoch` : maximum number of epoch before the training ends: $$ Default = \bold{250} $$
 
-- ***batch_size*** : maximum number of **point clouds** inside each batch: $$ Default = \bold{32} $$
+- `batch_size` : maximum number of **point clouds** inside each batch: $$ Default = \bold{32} $$
 
-- ***learning_rate*** : value of the learning rate for the optimizer used for the training of the Neural Network: $$ Default = \bold{0.001} $$
+- `learning_rate` : value of the learning rate for the optimizer used for the training of the Neural Network: $$ Default = \bold{0.001} $$
 
-- ***momentum*** : value for the momentum of the Convolutional layers inside the Neural Network: $$ Default = \bold{0.9} $$
+- `momentum` : value for the momentum of the Convolutional layers inside the Neural Network: $$ Default = \bold{0.9} $$
 
-- ***optimizer*** : optimizer used for the training of the Neural Network; it can be either **'adam'** or **'momentum'**
+- `optimizer` : optimizer used for the training of the Neural Network; it can be either `'adam'` or `'momentum'`
 
-- ***decay_step*** : number of step before having a decay inside the exponential decay scheduler: $$ Default = \bold{200000} $$
+- `decay_step` : number of step before having a decay inside the exponential decay scheduler: $$ Default = \bold{200000} $$
 
-- ***decay_rate*** : decay rate used by the exponential decay scheduler: $$ Default = \bold{0.7} $$
+- `decay_rate` : decay rate used by the exponential decay scheduler: $$ Default = \bold{0.7} $$
 
-At the end of the Training Loop, you'll find inside ***log_dir***:
+At the end of the Training Loop, you'll find inside `log_dir`:
 - **directory called as a number** which contains the checkpoint of the Neural Network,
-- a **log_train.txt** file, in which you can see some info about the training process
-- a **Loss & Accuracy** picture where both the Loss (CrossEntropy) and the Accuracy of the Training and Validation Dataset are shown.
+- a `log_train.txt` file, in which you can see some info about the training process
+- a `Loss & Accuracy` picture where both the Loss (CrossEntropy) and the Accuracy of the Training and Validation Dataset are shown.
 ________________________________________________________________
 
 2. **Evaluation Phase:**
@@ -131,11 +131,11 @@ ________________________________________________________________
     python evaluate_jax.py --log_dir=log_prova --model=pointnet --num_point=1024 --batch_size=4 --dump_dir=dump_prova --optimizer=adam --checkpoint=best_checkpoint_from_training
     ```
 
-At the end of this phase, you'll find inside the directory ***dump_dir*** the following files:
+At the end of this phase, you'll find inside the directory `dump_dir` the following files:
 
-- **log_evaluate.txt**, in which the accuracy of each class is listed combined with the eval mean loss, the eval accuracy among all object and the eval accouracy among all classes
+- `log_evaluate.txt`, in which the accuracy of each class is listed combined with the eval mean loss, the eval accuracy among all object and the eval accouracy among all classes
 
-- **Flax_Accuracy.tar**, a file containing the accuracies for further comparisons.
+- `Flax_Accuracy.tar`, a file containing the accuracies for further comparisons.
 
 ________________________________________________________________
 
@@ -144,7 +144,7 @@ ________________________________________________________________
     python compare.py --dump_flax=dump_prova --dump_tf=../old_repo_result/dump_tf_250_1024
     ```
 
-In the end you'll find inside the ***dump_dir*** (same directory as for the previous point), a plot with the Jax&Flax Accuracies on the x-axis and the Tensorflow Version Accuracies on the y-axis.
+In the end you'll find inside the `dump_dir` (same directory as for the previous point), a plot with the Jax&Flax Accuracies on the x-axis and the Tensorflow Version Accuracies on the y-axis.
 
 This is usefull to see the comparison between the Tensorflow approach with our Jax&Flax one.
 
@@ -153,12 +153,12 @@ Note that the times for training is really low for our approach with respect to 
 ## Results
 This is the result that we achieve:
 
--   **Maximum Training Accuracy : 89.016 %**
--   **Respective CrossEntropy Loss : 0.218748**
+-   `Maximum Training Accuracy : 89.016 %`
+-   `Respective CrossEntropy Loss : 0.218748`
 
 
--   **Maximum Validation Accuracy : 88.938 %**
--   **Respective CrossEntropy Loss : 0.388915**
+-   `Maximum Validation Accuracy : 88.938 %`
+-   `Respective CrossEntropy Loss : 0.388915`
 
 Here's a picture presenting the Loss and the Accuracy troughout epochs:
 
@@ -174,7 +174,7 @@ Note that you can find more details about the training, evaluation and *comparin
 
 ## License
 
-This project is licensed under the Apache License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
