@@ -75,8 +75,6 @@ You may find all specs inside the ***models.py*** file, but for semplicity here 
 
 ## **IMPORTANT**
 
-## **IMPORTANT**
-
 **This error might occur if the ShapeNet website is down.**
 **This error might occur if the ShapeNet website is down.**
 
