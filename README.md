@@ -72,11 +72,10 @@ You may find all specs inside the ***models.py*** file, but for semplicity here 
 
     Inside the **training.sh** file, one can find the full signature to run our presented simulation (note that since the algorithm is stochastic, the result might be different but the trend should be the same).
 
-_____________________________________________________________
 
-$$ \bold{IMPORTANT}\\
-\text{This error might occur if the ShapeNet website is down.} 
-$$
+## **IMPORTANT**
+
+**This error might occur if the ShapeNet website is down.**
 
 When running ```sh training.sh```, if the following error shows up: 
 
@@ -104,21 +103,35 @@ In particular, if one want to customize some settings, here we listed all parame
 
 - `model` : the selected model to use (can be either **pointnet_basic** or **pointnet**)
 
-- `num_point` : the number of point to consider of each point cloud can be either one of the following: $$ \bold{n} \in [ \bold{256,512,1024,2048} ] $$
+- `num_point` : the number of point to consider of each point cloud can be either one of the following: 
 
-- `max_epoch` : maximum number of epoch before the training ends: $$ Default = \bold{250} $$
+$$ \bold{n} \in [ \bold{256,512,1024,2048} ] $$
 
-- `batch_size` : maximum number of **point clouds** inside each batch: $$ Default = \bold{32} $$
+- `max_epoch` : maximum number of epoch before the training ends: 
 
-- `learning_rate` : value of the learning rate for the optimizer used for the training of the Neural Network: $$ Default = \bold{0.001} $$
+$$ Default = \bold{250} $$
 
-- `momentum` : value for the momentum of the Convolutional layers inside the Neural Network: $$ Default = \bold{0.9} $$
+- `batch_size` : maximum number of **point clouds** inside each batch: 
+
+$$ Default = \bold{32} $$
+
+- `learning_rate` : value of the learning rate for the optimizer used for the training of the Neural Network: 
+
+$$ Default = \bold{0.001} $$
+
+- `momentum` : value for the momentum of the Convolutional layers inside the Neural Network: 
+
+$$ Default = \bold{0.9} $$
 
 - `optimizer` : optimizer used for the training of the Neural Network; it can be either `'adam'` or `'momentum'`
 
-- `decay_step` : number of step before having a decay inside the exponential decay scheduler: $$ Default = \bold{200000} $$
+- `decay_step` : number of step before having a decay inside the exponential decay scheduler: 
 
-- `decay_rate` : decay rate used by the exponential decay scheduler: $$ Default = \bold{0.7} $$
+$$ Default = \bold{200000} $$
+
+- `decay_rate` : decay rate used by the exponential decay scheduler: 
+
+$$ Default = \bold{0.7} $$
 
 At the end of the Training Loop, you'll find inside `log_dir`:
 - **directory called as a number** which contains the checkpoint of the Neural Network,
