@@ -1,4 +1,4 @@
-name: gpu_env
+name: gpu_env2
 channels:
   - conda-forge
   - defaults
