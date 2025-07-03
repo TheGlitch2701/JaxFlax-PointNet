@@ -45,7 +45,7 @@ You may find all specs inside the ***models.py*** file, but for semplicity here 
     3.2 **NVIDIA GPU Environment Installation (Recommended)**:
 
         conda env create -f gpu_environment.yml
-        conda activate gpu_env
+        conda activate gpu_env2
 
     Consider that I ran the code with the following specs:
 
@@ -55,11 +55,22 @@ You may find all specs inside the ***models.py*** file, but for semplicity here 
     - **NVIDIA-SMI 576.02**
     - **Driver Version: 576.02**
     - **CUDA Version: 12.9**
+    - **Ubuntu Version 22.04 installed with WSL2**
 
     hence, be careful, since the ***gpu_environment.yml*** works fine for my setup, but **may not work at all** (especially for the Jax library) if you have a **different GPU setup**.
 
     In any case always refers to [Jax Installation Guide](https://docs.jax.dev/en/latest/installation.html#installation) to install the correct version for your machine setup. Moreover, inside the ***requirements.txt*** file you may find the version of the library I used so that you can install your own environment and not directly from the *gpu_environment.yml* file.
-    
+
+    If you obtain the following error:
+    ```bash
+    OSError: libGL.so.1: cannot open shared object file: No such file or directory
+    ```
+
+    run the following script:
+    ```bash
+    sudo apt update
+    sudo apt install libgl1
+    ```
 
 ## Usage
 
